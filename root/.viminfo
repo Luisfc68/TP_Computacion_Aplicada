@@ -1,0 +1,586 @@
+# Vim 8.1 gener√≥ este archivo "viminfo".
+# Puede editarlo, ¬°s√≥lo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribi√≥ este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# √öltimo Patr√≥n de b√∫squeda:
+~Msle0~/\<this\>
+
+# √öltimo Sustituci√≥nPatr√≥n de b√∫squeda:
+~MSle0&buster
+
+# √öltima cadena de sustituci√≥n:
+$
+
+# Historia de L√≠nea de √≥rdenes (de lo m√°s nuevo a lo m√°s antiguo):
+:q
+|2,0,1603857537,,"q"
+:wq
+|2,0,1603857459,,"wq"
+:w
+|2,0,1603853373,,"w"
+:q!
+|2,0,1603851807,,"q!"
+:n
+|2,0,1603851730,,"\n"
+:Wq
+|2,0,1603668889,,"Wq"
+:a
+|2,0,1600554465,,"a"
+:G
+|2,0,1600552893,,"G"
+:.,.+1!
+|2,0,1600550884,,".,.+1!"
+:x
+|2,0,1598454735,,"x"
+:%s/buster/stable/g
+|2,0,1586781976,,"%s/buster/stable/g"
+:Q!
+|2,0,1586781617,,"Q!"
+:set number
+|2,0,1586781557,,"set number"
+
+# Historia de Cadena de b√∫squeda (de lo m√°s nuevo a lo m√°s antiguo):
+? \<this\>
+|2,1,1603854445,,"\\<this\\>"
+? \<Edit\>
+|2,1,1603854445,,"\\<Edit\\>"
+? @$
+|2,1,1603851784,,"@$"
+? \<UUID\>
+|2,1,1603669262,,"\\<UUID\\>"
+? buster
+|2,1,1586781976,,"buster"
+
+# Historia de Expresi√≥n (de lo m√°s nuevo a lo m√°s antiguo):
+
+# Historia de L√≠nea de entrada (de lo m√°s nuevo a lo m√°s antiguo):
+
+# Historia de Debug Line (de lo m√°s nuevo a lo m√°s antiguo):
+
+# Registros:
+"0	LINE	0
+			echo `basename $0` "<fecha a validar> (se recomienda formato yyyymmdd)"
+|3,0,0,1,1,0,1603857259,"		echo `basename $0` \"<fecha a validar> (se recomienda formato yyyymmdd)\""
+""1	LINE	0
+		fi
+|3,1,1,1,1,0,1603857284,"	fi"
+"2	LINE	0
+			echo `basename $0` "<fecha a validar> (se recomienda formato yyyymmdd)"
+|3,0,2,1,1,0,1603857283,"		echo `basename $0` \"<fecha a validar> (se recomienda formato yyyymmdd)\""
+"3	LINE	0
+	ayuda(){
+|3,0,3,1,1,0,1603857283,"ayuda(){"
+"4	LINE	0
+		if[ "$1" == "-h" ]; then
+|3,0,4,1,1,0,1603857282,"	if[ \"$1\" == \"-h\" ]; then"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1603857280,""
+"6	LINE	0
+	}
+|3,0,6,1,1,0,1603857279,"}"
+"7	LINE	0
+	2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt 
+|3,0,7,1,1,0,1603854631,"2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt "
+"8	LINE	0
+	2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt
+|3,0,8,1,1,0,1603854630,"2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt"
+"9	LINE	0
+	2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt
+|3,0,9,1,1,0,1603854630,"2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt"
+"a	CHAR	0
+	!ÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkb
+|3,0,10,0,1,0,1600550878,"!ÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkb"
+"q	CHAR	0
+	w
+|3,0,26,0,1,0,1603856182,"w"
+"-	CHAR	0
+	a
+|3,0,36,0,1,0,1603856207,"a"
+
+# Marcas en el archivo:
+'0  1  0  /opt/tp/scripts/funciones.sh
+|4,48,1,0,1603857537,"/opt/tp/scripts/funciones.sh"
+'1  6  82  /opt/tp/scripts/funciones.sh
+|4,49,6,82,1603857459,"/opt/tp/scripts/funciones.sh"
+'2  6  82  /opt/tp/scripts/funciones.sh
+|4,50,6,82,1603857459,"/opt/tp/scripts/funciones.sh"
+'3  1  0  /opt/tp/scripts/pruebas.sh
+|4,51,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
+'4  3  0  /opt/tp/scripts/funciones.sh
+|4,52,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
+'5  3  0  /opt/tp/scripts/funciones.sh
+|4,53,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
+'6  3  0  /opt/tp/scripts/funciones.sh
+|4,54,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
+'7  3  0  /opt/tp/scripts/funciones.sh
+|4,55,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
+'8  1  34  ~/weeb.sh
+|4,56,1,34,1603856790,"~/weeb.sh"
+'9  19  42  ~/.bashrc
+|4,57,19,42,1603856769,"~/.bashrc"
+
+# Lista de saltos (el m√°s reciente va primero):
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1603857537,"/opt/tp/scripts/funciones.sh"
+-'  6  82  /opt/tp/scripts/funciones.sh
+|4,39,6,82,1603857459,"/opt/tp/scripts/funciones.sh"
+-'  6  82  /opt/tp/scripts/funciones.sh
+|4,39,6,82,1603857459,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1603857414,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/pruebas.sh
+|4,39,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
+-'  1  0  /opt/tp/scripts/pruebas.sh
+|4,39,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
+-'  1  0  /opt/tp/scripts/pruebas.sh
+|4,39,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
+-'  1  0  /opt/tp/scripts/pruebas.sh
+|4,39,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
+-'  3  0  /opt/tp/scripts/funciones.sh
+|4,39,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
+-'  3  0  /opt/tp/scripts/funciones.sh
+|4,39,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
+-'  3  0  /opt/tp/scripts/funciones.sh
+|4,39,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
+-'  3  0  /opt/tp/scripts/funciones.sh
+|4,39,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1603857014,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1603857014,"/opt/tp/scripts/funciones.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856790,"~/weeb.sh"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  19  42  ~/.bashrc
+|4,39,19,42,1603856769,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1603856558,"~/.bashrc"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856214,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856214,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856214,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856214,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856214,"~/weeb.sh"
+-'  1  34  ~/weeb.sh
+|4,39,1,34,1603856214,"~/weeb.sh"
+
+# Historia de las marcas en los archivos (de la m√°s reciente a la m√°s antigua):
+
+> /opt/tp/scripts/funciones.sh
+	*	1603857537	0
+	"	1	0
+	^	6	83
+	.	6	82
+	+	8	7
+	+	14	0
+	+	20	7
+	+	8	59
+	+	15	0
+	+	16	6
+	+	20	0
+	+	16	79
+	+	23	6
+	+	16	103
+	+	17	63
+	+	23	51
+	+	30	76
+	+	49	61
+	+	48	0
+	+	46	0
+	+	47	2
+	+	36	0
+	+	51	109
+	+	94	97
+	+	2	0
+	+	3	8
+	+	3	1
+	+	3	25
+	+	3	2
+	+	3	21
+	+	5	21
+	+	6	73
+	+	8	0
+	+	5	26
+	+	5	25
+	+	7	2
+	+	3	0
+	+	6	82
+
+> /opt/tp/scripts/pruebas.sh
+	*	1603857406	0
+	"	1	0
+
+> ~/weeb.sh
+	*	1603856787	0
+	"	1	34
+	^	1	35
+	.	1	35
+	+	1	35
+
+> ~/.bashrc
+	*	1603856768	0
+	"	19	42
+
+> ~/fortune
+	*	1603856189	0
+	"	1	0
+
+> /tmp/crontab.hZfybR/crontab
+	*	1603854635	0
+	"	1	0
+
+> /etc/crontab
+	*	1603854632	0
+	"	21	0
+	.	22	0
+	+	22	53
+	+	22	0
+	+	22	59
+	+	22	57
+	+	22	60
+	+	22	63
+	+	22	72
+	+	22	75
+	+	22	0
+	+	22	64
+	+	22	66
+	+	22	0
+
+> /tmp/crontab.icIR4C/crontab
+	*	1603854602	0
+	"	25	68
+	^	25	69
+	.	25	68
+	+	25	11
+	+	19	0
+	+	25	68
+
+> /tmp/crontab.1QW46K/crontab
+	*	1603854445	0
+	"	5	0
+	.	4	82
+	+	1	10
+	+	4	82
+
+> /tmp/crontab.9vfFJ3/crontab
+	*	1603854254	0
+	"	1	0
+
+> /tmp/crontab.z1MIio/crontab
+	*	1603854192	0
+	"	1	0
+
+> /opt/tp/scripts/monitor.sh
+	*	1603852587	0
+	"	1	0
+	^	8	19
+	.	8	18
+	+	8	18
+
+> /tmp/crontab.kgsqM2/crontab
+	*	1603851731	0
+	"	24	29
+
+> /etc/fstab
+	*	1603669708	0
+	"	16	63
+	^	16	64
+	.	16	63
+	+	14	0
+	+	13	41
+	+	14	40
+	+	13	42
+	+	14	0
+	+	13	41
+	+	14	0
+	+	13	41
+	+	14	65
+	+	13	0
+	+	14	62
+	+	15	41
+	+	14	59
+	+	15	40
+	+	17	0
+	+	14	55
+	+	15	55
+	+	14	61
+	+	15	60
+	+	16	63
+
+> /etc/uids
+	*	1603668683	0
+	"	1	65
+	^	1	66
+	.	1	2
+	+	1	2
+
+> /etc/stab
+	*	1603152083	0
+	"	1	0
+
+> /var/www/info.php
+	*	1601250562	0
+	"	2	9
+	^	3	2
+	.	3	1
+	+	3	1
+
+> /etc/ssh/sshd_config
+	*	1600556976	0
+	"	40	21
+	^	40	22
+	.	40	0
+	+	56	0
+	+	32	18
+	+	37	0
+	+	40	0
+
+> ~/.ssh/clave_publica_pablo.pub
+	*	1600555198	0
+	"	1	556
+	^	1	557
+	.	1	556
+	+	1	554
+	+	2	0
+	+	1	556
+
+> ~/conectar_internet.sh
+	*	1600554516	0
+	"	2	31
+	^	2	32
+	.	2	31
+	+	2	0
+	+	1	0
+	+	2	0
+	+	2	31
+
+> ~/computacionaplicada/clave_publica_pablo.pub
+	*	1600552980	0
+	"	1	563
+	^	1	564
+	.	1	563
+	+	1	563
+
+> /etc/dhcp/dhclient.conf
+	*	1600550886	0
+	"	2	0
+
+> /etc/hash
+	*	1598455832	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> /etc/hasg
+	*	1598454724	0
+	"	1	0
+
+> /etc/network/interfaces
+	*	1598454049	0
+	"	13	0
+	.	14	0
+	+	14	0
+
+> /tmp/crontab.byo59W/crontab
+	*	1591018206	0
+	"	24	48
+	^	24	49
+	.	24	48
+	+	24	48
+
+> /tmp/crontab.RIdmcB/crontab
+	*	1591017172	0
+	"	19	40
+	.	19	0
+	+	19	0
+
+> /etc/group
+	*	1587985101	0
+	"	21	15
+	^	21	16
+	.	21	15
+	+	21	15
+
+> ~/hola.sh
+	*	1587387080	0
+	"	5	0
+	^	5	0
+	.	4	8
+	+	3	18
+	+	4	8
+
+> /etc/apt/sources.list
+	*	1586781998	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/crotab
+	"	1	0

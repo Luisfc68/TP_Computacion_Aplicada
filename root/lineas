@@ -1,0 +1,3 @@
+2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt 
+2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt
+2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt

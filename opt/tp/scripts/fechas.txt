@@ -1,0 +1,32 @@
+FERIADOS NACIONALES INAMOVIBLES:
+0101 : Año Nuevo.
+Lunes y Martes de Carnaval.
+0324 : Día Nacional de la Memoria por la Verdad y la Justicia.
+Jueves Santo.
+Viernes Santo.
+0402 : Día del Veterano y de los Caídos en la Guerra de Malvinas.
+0501 : Día del Trabajo.
+0525 : Día de la Revolución de Mayo.
+0620 : Paso a la Inmortalidad del General Don Manuel Belgrano.
+0709 : Día de la Independencia.
+1208 : Día de la Inmaculada Concepción de María.
+1225 : Navidad.
+
+FERIADOS NACIONALES TRASLADABLES: #martes y miercoles se mueve al lunes anterior, jueves y viernes al siguiente
+t0617 : Paso a la Inmortalidad del General Don Martín Miguel de Guemes.
+t0817 : Paso a la Inmortalidad del General Don José de San Martín.
+t1012 : Día del Respeto a la Diversidad Cultural.
+t1120 : Día de la Soberanía Nacional.
+
+INICIOS DE SEMANA SANTA HASTA EL 2030:
+ss20200405
+ss20210328
+ss20220410
+ss20230402
+ss20240324
+ss20250413
+ss20260329
+ss20270321
+ss20280409
+ss20290325
+ss20300414
