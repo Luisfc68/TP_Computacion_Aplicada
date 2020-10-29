@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # √öltimo Patr√≥n de b√∫squeda:
-~Msle0~/\<this\>
+~MSle0~/\<2\>
 
 # √öltimo Sustituci√≥nPatr√≥n de b√∫squeda:
 ~MSle0&buster
@@ -20,18 +20,22 @@
 $
 
 # Historia de L√≠nea de √≥rdenes (de lo m√°s nuevo a lo m√°s antiguo):
-:q
-|2,0,1603857537,,"q"
 :wq
-|2,0,1603857459,,"wq"
-:w
-|2,0,1603853373,,"w"
+|2,0,1603934549,,"wq"
+:Wq
+|2,0,1603934547,,"Wq"
+:q
+|2,0,1603928713,,"q"
+:WQ
+|2,0,1603920358,,"WQ"
+:Q
+|2,0,1603916300,,"Q"
 :q!
-|2,0,1603851807,,"q!"
+|2,0,1603915352,,"q!"
+:w
+|2,0,1603868337,,"w"
 :n
 |2,0,1603851730,,"\n"
-:Wq
-|2,0,1603668889,,"Wq"
 :a
 |2,0,1600554465,,"a"
 :G
@@ -48,12 +52,16 @@ $
 |2,0,1586781557,,"set number"
 
 # Historia de Cadena de b√∫squeda (de lo m√°s nuevo a lo m√°s antiguo):
+? @$
+|2,1,1603920331,,"@$"
+? \<2\>
+|2,1,1603916986,,"\\<2\\>"
+? \<bash\>
+|2,1,1603916297,,"\\<bash\\>"
 ? \<this\>
 |2,1,1603854445,,"\\<this\\>"
 ? \<Edit\>
 |2,1,1603854445,,"\\<Edit\\>"
-? @$
-|2,1,1603851784,,"@$"
 ? \<UUID\>
 |2,1,1603669262,,"\\<UUID\\>"
 ? buster
@@ -67,270 +75,500 @@ $
 
 # Registros:
 "0	LINE	0
-			echo `basename $0` "<fecha a validar> (se recomienda formato yyyymmdd)"
-|3,0,0,1,1,0,1603857259,"		echo `basename $0` \"<fecha a validar> (se recomienda formato yyyymmdd)\""
-""1	LINE	0
-		fi
-|3,1,1,1,1,0,1603857284,"	fi"
+	*/2 * * * * root /opt/tp/scripts/monitor.sh yes >> /root/quepasa.txt
+|3,0,0,1,1,0,1603933743,"*/2 * * * * root /opt/tp/scripts/monitor.sh yes >> /root/quepasa.txt"
+"1	LINE	0
+	*/2 * * * * /opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt
+|3,0,1,1,1,0,1603933727,"*/2 * * * * /opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt"
 "2	LINE	0
-			echo `basename $0` "<fecha a validar> (se recomienda formato yyyymmdd)"
-|3,0,2,1,1,0,1603857283,"		echo `basename $0` \"<fecha a validar> (se recomienda formato yyyymmdd)\""
+	*/2 * * * * /opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt
+|3,0,2,1,1,0,1603933727,"*/2 * * * * /opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt"
 "3	LINE	0
-	ayuda(){
-|3,0,3,1,1,0,1603857283,"ayuda(){"
+	*/2 * * * * /opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt
+|3,0,3,1,1,0,1603933726,"*/2 * * * * /opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt"
 "4	LINE	0
-		if[ "$1" == "-h" ]; then
-|3,0,4,1,1,0,1603857282,"	if[ \"$1\" == \"-h\" ]; then"
+	 
+|3,0,4,1,1,0,1603917424," "
 "5	LINE	0
-	
-|3,0,5,1,1,0,1603857280,""
+	root: root@debian.up
+|3,0,5,1,1,0,1603868927,"root: root@debian.up"
 "6	LINE	0
-	}
-|3,0,6,1,1,0,1603857279,"}"
+		fi
+|3,0,6,1,1,0,1603857284,"	fi"
 "7	LINE	0
-	2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt 
-|3,0,7,1,1,0,1603854631,"2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt "
+			echo `basename $0` "<fecha a validar> (se recomienda formato yyyymmdd)"
+|3,0,7,1,1,0,1603857283,"		echo `basename $0` \"<fecha a validar> (se recomienda formato yyyymmdd)\""
 "8	LINE	0
-	2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt
-|3,0,8,1,1,0,1603854630,"2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt"
+	ayuda(){
+|3,0,8,1,1,0,1603857283,"ayuda(){"
 "9	LINE	0
-	2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt
-|3,0,9,1,1,0,1603854630,"2  *    * * *   root 	bash /opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt"
+		if[ "$1" == "-h" ]; then
+|3,0,9,1,1,0,1603857282,"	if[ \"$1\" == \"-h\" ]; then"
 "a	CHAR	0
 	!ÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkb
 |3,0,10,0,1,0,1600550878,"!ÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkbÄkb"
 "q	CHAR	0
 	w
 |3,0,26,0,1,0,1603856182,"w"
-"-	CHAR	0
-	a
-|3,0,36,0,1,0,1603856207,"a"
+""-	CHAR	0
+	s
+|3,1,36,0,1,0,1603933774,"s"
 
 # Marcas en el archivo:
-'0  1  0  /opt/tp/scripts/funciones.sh
-|4,48,1,0,1603857537,"/opt/tp/scripts/funciones.sh"
-'1  6  82  /opt/tp/scripts/funciones.sh
-|4,49,6,82,1603857459,"/opt/tp/scripts/funciones.sh"
-'2  6  82  /opt/tp/scripts/funciones.sh
-|4,50,6,82,1603857459,"/opt/tp/scripts/funciones.sh"
-'3  1  0  /opt/tp/scripts/pruebas.sh
-|4,51,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
-'4  3  0  /opt/tp/scripts/funciones.sh
-|4,52,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
-'5  3  0  /opt/tp/scripts/funciones.sh
-|4,53,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
-'6  3  0  /opt/tp/scripts/funciones.sh
-|4,54,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
-'7  3  0  /opt/tp/scripts/funciones.sh
-|4,55,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
-'8  1  34  ~/weeb.sh
-|4,56,1,34,1603856790,"~/weeb.sh"
-'9  19  42  ~/.bashrc
-|4,57,19,42,1603856769,"~/.bashrc"
+'0  5  7  /opt/tp/scripts/monitor.sh
+|4,48,5,7,1603934549,"/opt/tp/scripts/monitor.sh"
+'1  5  61  /opt/tp/scripts/monitor.sh
+|4,49,5,61,1603934488,"/opt/tp/scripts/monitor.sh"
+'2  23  2  /etc/crontab
+|4,50,23,2,1603933793,"/etc/crontab"
+'3  24  0  /tmp/crontab.2Rl67V/crontab
+|4,51,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+'4  23  67  /etc/crontab
+|4,52,23,67,1603928789,"/etc/crontab"
+'5  27  0  /tmp/crontab.Aopslm/crontab
+|4,53,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+'6  1  0  /opt/tp/scripts/monitor.sh
+|4,54,1,0,1603921928,"/opt/tp/scripts/monitor.sh"
+'7  1  0  /opt/tp/scripts/monitor.sh
+|4,55,1,0,1603921928,"/opt/tp/scripts/monitor.sh"
+'8  1  0  /opt/tp/scripts/monitor.sh
+|4,56,1,0,1603921928,"/opt/tp/scripts/monitor.sh"
+'9  1  0  /opt/tp/scripts/monitor.sh
+|4,57,1,0,1603921928,"/opt/tp/scripts/monitor.sh"
 
 # Lista de saltos (el m√°s reciente va primero):
--'  1  0  /opt/tp/scripts/funciones.sh
-|4,39,1,0,1603857537,"/opt/tp/scripts/funciones.sh"
--'  6  82  /opt/tp/scripts/funciones.sh
-|4,39,6,82,1603857459,"/opt/tp/scripts/funciones.sh"
--'  6  82  /opt/tp/scripts/funciones.sh
-|4,39,6,82,1603857459,"/opt/tp/scripts/funciones.sh"
--'  1  0  /opt/tp/scripts/funciones.sh
-|4,39,1,0,1603857414,"/opt/tp/scripts/funciones.sh"
--'  1  0  /opt/tp/scripts/pruebas.sh
-|4,39,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
--'  1  0  /opt/tp/scripts/pruebas.sh
-|4,39,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
--'  1  0  /opt/tp/scripts/pruebas.sh
-|4,39,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
--'  1  0  /opt/tp/scripts/pruebas.sh
-|4,39,1,0,1603857406,"/opt/tp/scripts/pruebas.sh"
--'  3  0  /opt/tp/scripts/funciones.sh
-|4,39,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
--'  3  0  /opt/tp/scripts/funciones.sh
-|4,39,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
--'  3  0  /opt/tp/scripts/funciones.sh
-|4,39,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
--'  3  0  /opt/tp/scripts/funciones.sh
-|4,39,3,0,1603857324,"/opt/tp/scripts/funciones.sh"
--'  1  0  /opt/tp/scripts/funciones.sh
-|4,39,1,0,1603857014,"/opt/tp/scripts/funciones.sh"
--'  1  0  /opt/tp/scripts/funciones.sh
-|4,39,1,0,1603857014,"/opt/tp/scripts/funciones.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856790,"~/weeb.sh"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  19  42  ~/.bashrc
-|4,39,19,42,1603856769,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1603856558,"~/.bashrc"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856214,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856214,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856214,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856214,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856214,"~/weeb.sh"
--'  1  34  ~/weeb.sh
-|4,39,1,34,1603856214,"~/weeb.sh"
+-'  5  7  /opt/tp/scripts/monitor.sh
+|4,39,5,7,1603934549,"/opt/tp/scripts/monitor.sh"
+-'  1  0  /opt/tp/scripts/monitor.sh
+|4,39,1,0,1603934528,"/opt/tp/scripts/monitor.sh"
+-'  5  61  /opt/tp/scripts/monitor.sh
+|4,39,5,61,1603934488,"/opt/tp/scripts/monitor.sh"
+-'  1  0  /opt/tp/scripts/monitor.sh
+|4,39,1,0,1603934404,"/opt/tp/scripts/monitor.sh"
+-'  23  2  /etc/crontab
+|4,39,23,2,1603933793,"/etc/crontab"
+-'  23  2  /etc/crontab
+|4,39,23,2,1603933793,"/etc/crontab"
+-'  23  2  /etc/crontab
+|4,39,23,2,1603933793,"/etc/crontab"
+-'  23  2  /etc/crontab
+|4,39,23,2,1603933793,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603933739,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603933739,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603933739,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603933739,"/etc/crontab"
+-'  24  0  /tmp/crontab.2Rl67V/crontab
+|4,39,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+-'  24  0  /tmp/crontab.2Rl67V/crontab
+|4,39,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+-'  24  0  /tmp/crontab.2Rl67V/crontab
+|4,39,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+-'  24  0  /tmp/crontab.2Rl67V/crontab
+|4,39,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+-'  24  0  /tmp/crontab.2Rl67V/crontab
+|4,39,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+-'  24  0  /tmp/crontab.2Rl67V/crontab
+|4,39,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+-'  24  0  /tmp/crontab.2Rl67V/crontab
+|4,39,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+-'  24  0  /tmp/crontab.2Rl67V/crontab
+|4,39,24,0,1603933730,"/tmp/crontab.2Rl67V/crontab"
+-'  1  0  /tmp/crontab.2Rl67V/crontab
+|4,39,1,0,1603933723,"/tmp/crontab.2Rl67V/crontab"
+-'  1  0  /tmp/crontab.2Rl67V/crontab
+|4,39,1,0,1603933723,"/tmp/crontab.2Rl67V/crontab"
+-'  1  0  /tmp/crontab.2Rl67V/crontab
+|4,39,1,0,1603933723,"/tmp/crontab.2Rl67V/crontab"
+-'  1  0  /tmp/crontab.2Rl67V/crontab
+|4,39,1,0,1603933723,"/tmp/crontab.2Rl67V/crontab"
+-'  1  0  /tmp/crontab.2Rl67V/crontab
+|4,39,1,0,1603933723,"/tmp/crontab.2Rl67V/crontab"
+-'  1  0  /tmp/crontab.2Rl67V/crontab
+|4,39,1,0,1603933723,"/tmp/crontab.2Rl67V/crontab"
+-'  1  0  /tmp/crontab.2Rl67V/crontab
+|4,39,1,0,1603933723,"/tmp/crontab.2Rl67V/crontab"
+-'  1  0  /tmp/crontab.2Rl67V/crontab
+|4,39,1,0,1603933723,"/tmp/crontab.2Rl67V/crontab"
+-'  23  67  /etc/crontab
+|4,39,23,67,1603928789,"/etc/crontab"
+-'  23  67  /etc/crontab
+|4,39,23,67,1603928789,"/etc/crontab"
+-'  23  67  /etc/crontab
+|4,39,23,67,1603928789,"/etc/crontab"
+-'  23  67  /etc/crontab
+|4,39,23,67,1603928789,"/etc/crontab"
+-'  23  67  /etc/crontab
+|4,39,23,67,1603928789,"/etc/crontab"
+-'  23  67  /etc/crontab
+|4,39,23,67,1603928789,"/etc/crontab"
+-'  23  67  /etc/crontab
+|4,39,23,67,1603928789,"/etc/crontab"
+-'  23  67  /etc/crontab
+|4,39,23,67,1603928789,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603928721,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603928721,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603928721,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603928721,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603928721,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603928721,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603928721,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1603928721,"/etc/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  27  0  /tmp/crontab.Aopslm/crontab
+|4,39,27,0,1603928713,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
+-'  1  0  /tmp/crontab.Aopslm/crontab
+|4,39,1,0,1603928700,"/tmp/crontab.Aopslm/crontab"
 
 # Historia de las marcas en los archivos (de la m√°s reciente a la m√°s antigua):
+
+> /opt/tp/scripts/monitor.sh
+	*	1603934547	0
+	"	5	7
+	^	5	8
+	.	5	6
+	+	14	18
+	+	23	58
+	+	3	26
+	+	7	1
+	+	5	6
+
+> /etc/crontab
+	*	1603933792	0
+	"	23	2
+	^	23	3
+	.	23	2
+	+	23	53
+	+	23	0
+	+	23	59
+	+	23	57
+	+	23	60
+	+	23	63
+	+	23	72
+	+	23	75
+	+	23	0
+	+	23	64
+	+	23	66
+	+	23	0
+	+	9	10
+	+	23	0
+	+	10	5
+	+	7	13
+	+	23	67
+	+	24	0
+	+	25	0
+	+	23	49
+	+	24	47
+	+	25	2
+	+	24	2
+	+	23	2
+
+> /tmp/crontab.2Rl67V/crontab
+	*	1603933729	0
+	"	24	0
+	.	25	0
+	+	25	0
+
+> /tmp/crontab.Aopslm/crontab
+	*	1603928706	0
+	"	27	0
+
+> /tmp/crontab.CROgSI/crontab
+	*	1603921770	0
+	"	1	0
+
+> /tmp/crontab.qT33sa/crontab
+	*	1603920169	0
+	"	27	12
+	.	27	12
+	+	25	12
+	+	26	12
+	+	27	12
+
+> /tmp/crontab.hgsvFM/crontab
+	*	1603919965	0
+	"	27	15
+	^	27	16
+	.	27	15
+	+	25	15
+	+	26	15
+	+	27	15
+
+> /tmp/crontab.KIbKgY/crontab
+	*	1603919899	0
+	"	27	16
+	^	27	17
+	.	27	16
+	+	25	16
+	+	26	16
+	+	27	16
+
+> /tmp/crontab.K1sEBp/crontab
+	*	1603919750	0
+	"	1	0
+
+> ~/.forward
+	*	1603918815	0
+	"	1	13
+	^	1	14
+	.	1	14
+	+	1	0
+	+	1	14
+
+> /etc/aliases
+	*	1603918702	0
+	"	14	19
+	^	14	20
+	.	14	19
+	+	14	19
+
+> /tmp/crontab.sVZap8/crontab
+	*	1603918267	0
+	"	27	52
+	^	27	53
+	.	27	52
+	+	25	51
+	+	26	50
+	+	27	52
+
+> /tmp/crontab.4cSvUC/crontab
+	*	1603918242	0
+	"	25	2
+	^	25	3
+	.	25	2
+	+	25	2
+	+	26	2
+	+	27	2
+	+	26	2
+	+	25	2
+
+> /tmp/crontab.N52lX5/crontab
+	*	1603917691	0
+	"	27	70
+	^	27	71
+	.	27	70
+	+	24	49
+	+	25	69
+	+	26	67
+	+	27	70
+
+> /tmp/crontab.EhiP0E/crontab
+	*	1603917440	0
+	"	27	50
+	^	27	51
+	.	27	50
+	+	25	62
+	+	26	0
+	+	27	0
+	+	26	47
+	+	27	50
+
+> /tmp/crontab.f1H6oS/crontab
+	*	1603917184	0
+	"	25	58
+	^	25	59
+	.	25	58
+	+	25	58
+
+> /tmp/crontab.3oecuz/crontab
+	*	1603917000	0
+	"	25	1
+	^	25	2
+	.	25	1
+	+	25	1
+
+> /tmp/crontab.rB3ebr/crontab
+	*	1603916300	0
+	"	25	10
+
+> /tmp/crontab.sQ0Hlp/crontab
+	*	1603916107	0
+	"	1	0
+
+> /tmp/crontab.cH1Ecv/crontab
+	*	1603915866	0
+	"	25	45
+	.	25	45
+	+	25	45
+
+> /tmp/crontab.NAHnPG/crontab
+	*	1603915808	0
+	"	1	0
+
+> /tmp/crontab.JzdEjc/crontab
+	*	1603915762	0
+	"	1	0
+
+> /tmp/crontab.bQUQND/crontab
+	*	1603915455	0
+	"	25	56
+	^	25	57
+	.	25	56
+	+	25	56
+
+> /tmp/crontab.SOt6i3/crontab
+	*	1603914830	0
+	"	1	0
+
+> /tmp/crontab.OvxxmA/crontab
+	*	1603914520	0
+	"	25	44
+	^	25	45
+	.	25	44
+	+	25	44
+
+> /tmp/crontab.wBTprV/crontab
+	*	1603913637	0
+	"	1	0
+
+> /etc/aliasses
+	*	1603911486	0
+	"	1	0
+
+> /etc/email-addresses
+	*	1603868928	0
+	"	9	0
+	.	10	0
+	+	10	0
+
+> /tmp/mutt-debian-0-1652-3655595901314371964
+	*	1603868381	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	0
+
+> /tmp/mutt-debian-0-1622-21304947525493659
+	*	1603868337	0
+	"	5	0
+	^	5	0
+	.	4	0
+	+	4	0
+
+> /tmp/mutt-debian-0-1605-20410434101839610
+	*	1603868293	0
+	"	2	0
+	^	2	0
+	.	1	8
+	+	1	8
 
 > /opt/tp/scripts/funciones.sh
 	*	1603857537	0
@@ -395,23 +633,6 @@ $
 	*	1603854635	0
 	"	1	0
 
-> /etc/crontab
-	*	1603854632	0
-	"	21	0
-	.	22	0
-	+	22	53
-	+	22	0
-	+	22	59
-	+	22	57
-	+	22	60
-	+	22	63
-	+	22	72
-	+	22	75
-	+	22	0
-	+	22	64
-	+	22	66
-	+	22	0
-
 > /tmp/crontab.icIR4C/crontab
 	*	1603854602	0
 	"	25	68
@@ -435,13 +656,6 @@ $
 > /tmp/crontab.z1MIio/crontab
 	*	1603854192	0
 	"	1	0
-
-> /opt/tp/scripts/monitor.sh
-	*	1603852587	0
-	"	1	0
-	^	8	19
-	.	8	18
-	+	8	18
 
 > /tmp/crontab.kgsqM2/crontab
 	*	1603851731	0

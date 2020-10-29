@@ -25,3 +25,5 @@ avahi-autoipd:x:105:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/
 systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 sshd:x:106:65534::/run/sshd:/usr/sbin/nologin
 mysql:x:107:115:MySQL Server,,,:/var/lib/mysql:/bin/false
+Debian-exim:x:108:116::/var/spool/exim4:/usr/sbin/nologin
+alumno:x:1000:1000::/home/alumno:/bin/bash

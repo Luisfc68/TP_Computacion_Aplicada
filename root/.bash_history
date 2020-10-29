@@ -1,500 +1,500 @@
-whereis httpd.conf
-man whereis
+mail
+cd ~/
+mail -s "prueba" root < lineas
+mail
 clear
-ls
-cd /
-ls
-cd etc
-lscd
+cat /etc/passwd
+mail -s "prueba" root@localhost < lineas
+mail
+mail -s "prueba" root@127.0.0.1 < lineas
+mail
+mail -s "prueba" root@127.0.0.1 <<< "hola como estas"
+mai
+mail -s "prueba" root
+mail
+mail
 clear
-lsd 
-cd apache2
+cd /var/mail/
 ls
-cd mods-enabled/
-ls
-cd ..
-clear
-ls
-cd mods-available/
-ls
-cd ..
-sl
-clear
-cd ..
-clear
-cd apach2
-cd apache2
-ls
-cd conf-enabled/
-ls
-cd ..
-clear
-ls
-apt-get install tree
-dpkg -l | egrep php
-apt-get install php7.3 libapache-mod-php7.3
-apt-get install php7.3
-service apache2 restart
-clear
-ls
-cd mods-enabled
-ls
-cd ..
-cd /var/www/
-ls
-cd html
-ls
-rm info.php
-ls
-mv index.php  ../php/
-cd ..
-cd php
-ls
-cd ..
-ls
-rm -rd html
-ls
-mv php html
-ls
-poweroff
-ls
-ls
-cd .ssh
-ls
-rm -rd *
-ls
-cd ..
-ls
-cd computacionaplicada/
-l
-clear
-ls
-ssh-copy-id -i clave_publica_pablo.pub root@localhost
-ssh-copy-id -i clave_publica_pablo.pub root@localhost -f
-man ssh-copy-id | more
-clear
-ssh-copy-id -i clave_publica_pablo.pub root@localhost -f
-man ssh-copy-id | more
-clear
-ssh-copy-id clave_publica_pablo.pub root@localhost 
-ssh-copy-id clave_publica_pablo.pub 
-ssh-copy-id root@localhost clave_publica_pablo.pub 
-ssh-copy-id root@localhost
-ls
-chmod 700 clave_publica_pablo.pub 
-ssh-copy-id -i clave_publica_pablo.pub root@localhost
-ls /la
-ls -la
-clear
-ssh-copy-id
-ls
-ssh-copy-id clave_publica_pablo.pub root@localhost
-ssh-copy-id -i clave_publica_pablo.pub root@localhost
-chmod 777 clave_publica_pablo.pub 
-ssh-copy-id -i clave_publica_pablo.pub root@localhost
-ssh-copy-id -i ./clave_publica_pablo.pub root@localhost
-ssh-copy-id root@localhost
-cp clave_publica_pablo.pub ../.ssh
-ls
-cd ..
-ls
-clear
-cd .ssh
-ls
-ssh-copy-id root@localhost
-ssh-copy-id root@localhost -i localhost
-ssh-copy-id -i root@localhost localhost
-clear
-ssh-copy-id -i root@localhost localhost
-ssh-copy-id -i root@/root/.ssh/clave_publica_pablo.pub localhost
-ssh-copy-id -i root@clave_publica_pablo.pub localhost
-ssh-copy-id -i clave_publica_pablo.pub localhost
-clear
-ssh-copy-id -i clave_publica_pablo.pub localhost
-ssh-copy-id -i /root/.ssh/clave_publica_pablo.pub localhost
-ls
-mkdir authorized_keys
-mv clave_publica_pablo.pub authorized_keys/
-clear
-ls
-cd authorized_keys/
-ssh-copy-id -i ./clave_publica_pablo.pub root@localhost
-ssh-copy-id root@localhost
-ssh-copy-id -i -f root@localhost
-ssh-copy-id -i -f ./clave_publica_pablo.pub root@localhost
-ssh-copy-id -i -f root@localhost ./clave_publica_pablo.pub
-clear
-ssh-copy-id -i ./ root@localhost
-ssh-copy-id -i ./clave_publica_pablo.pub root@localhos
-ls
-mv clave_publica_pablo.pub id_rsa.pub
-mv id_rsa.pub ../
-cd ..
-rm -rd authorized_keys/
-clear
-ls
-ssh-copy-id root@localhost
-ssh-copy-id -i ./id_rsa.pub root@localhost
-ls
-clear
-htop
-clear
-cd /var
-ls
-yes
-clear
+
+mail -s "prueba" root@debian <<< "hola como estas"
+mail
+uname
+uname
+linux
+uname
 cd /root
 clear
-ls
-clea
+bash weeb.sh 
+bash weeb.sh 
+hostname
+domainname
+echo qlq | mail -s "test" root
+mail
+echo qlq | mail -s "test" root@debian
+mail
+echo qlq | mail -s "test" root@debian.local
+mail
+echo qlq | mail -s "test" root@debian.up
+mail
+ls -a
+vim .bashrc
 clear
-cowsay hola
-lcsd - l
-cd .ssh
+vim weeb.sh 
+bash weeb.sh 
+env | egrep MIL
+env | egrep MAIL
+cd /var/mail/rot
+cd /var/mail/root
+cd /var/mail/
+cat root
+cat root
+bash weeb.sh 
 ls
-rm id_rsa.pub 
+cd /root
+bash weeb.sh 
+cd /opt/tp/scripts/
+vim funciones.sh 
+prueba -h
+bash prueba -h
+bash prueba.sh -h
+ls
+bash pruebas.sh -h
+vim pruebas.sh 
+vim funciones.sh 
+bash pruebas.sh -h
+bash pruebas.sh -h
+vim funciones.sh 
 clear
-ls
-cd ..
+finger
+bash finger
 clear
-ls
-git clone https://github.com/pabloniklas/computacionaplicada
-ls
-rm -rd computacionaplicada/
-git clone https://github.com/pabloniklas/computacionaplicada
-bash conectar_internet.sh 
-git clone https://github.com/pabloniklas/computacionaplicada
+which finger
+pincky
+pinky
+pinky -l luis
+pinky -l 
+pinky -l luis
+pinky -l root
+sendmail
+man sendmail
 clear
-ls
-cd computacionaplicada/
-ls
-ssh-copy-id -h
-
-mv clave_publica_sonda.pub clave_sonda.pub
-mv clave_privada_sonda clave_sonda
-ssh-copy-id -i clave_sonda root@localhost
-ifconfig
-jobs
-jobs
-htop
-kill 1112
-htop
-clear
-history
-poweroff
-cowsay hola
-ifconfig
-yes > /dev/null &
-ls
-bash conectar_internet.sh 
-clear
-la -l
-la -l
-ls
+echo $MAIL
+cd /var/mail
 ls -l
-lsblk
-man lsblk
-clear
-lsblk
-apt-get update; apt-get install initramfs-tools mdadm
-modprobe linear
-modprobe multipath
-modprobe raid0
-modprobe raid5
-modprobe raid5
-modprobe raid6
-modprobe raid10
-cat /proc/mdstat
-clear
-lsblk
-sfdisk -d /dev/sda | sfdisk --force /dev/sdb
-clear;sfdisk -d /dev/sdc | sfdisk --force /dev/sdd
-fdisk -L
-fdisk -J
-fdisk -l
-clear
-fdisk -l
-clear
-apt-get install lvm2
-service lvm2 start
-service
-clear
-systemctl list
-systemctl 
-clear
-systemctl | egrep lvm
-clear
-screenfetch
-clear
-sysinfo
-clear
-screenfetch
-clear
-apt-get install system-config-lvm
-clear
-ls
-lsblk
-pvcreate /dev/sdc
-lsblk
-pvmove /dev/sdc
-clear
-mkfs
-clear
-man mkfs
-clear
-lsblk
-fdisk
-fdisk --help
-lsblk
-fdisk sdc
-fdisk /sdc
-fdisk /dev/sdc
-lsblk
-history
-clear}
-clear
-lsblk
-apt-get install initramfs-tools mdadm
-clear
-lsblk
-sfdisk -d /dev/sdc | sfdisk --force /dev/sdd
-clear
-fdisk -l
-lsblk
-clear
-fdisk /dev/sdd
-lsblk
-clear
-cd /dev
-ls
-cd ..
-ls
-clear
-mount /dev/sdc /montado
-mkdir /montado
-mount /dev/sdc /montado
+cat root
+chmod a+rw root 
 ls -l
-rmdir /montado/
-cd home
-cd .. 
+echo luis | mail -s "p" 
+echo luis | mail -s "p" root
+cat root
+mail
+echo luis | mailx -s "p" root
+cat root
+echo luis | mailx -s "p" 
+clear
+cd .. && cd .. 
+git add /root
+git add github.com/Luisfc68/TP_Computacion_Aplicada
+git add github.com/Luisfc68/TP_Computacion_Aplicada /root
+git add https://github.com/Luisfc68/TP_Computacion_Aplicada 
+git add https://github.com/Luisfc68/TP_Computacion_Aplicada /root
+history | egrep git 
+git add https://github.com/Luisfc68/TP_Computacion_Aplicada /root
+git add https://github.com/Luisfc68/TP_Computacion_Aplicada /root
+git add https://github.com/Luisfc68/TP_Computacion_Aplicada
+git push https://github.com/Luisfc68/TP_Computacion_Aplicada /root
+man git
+man git
+clear
+man git
+git add
+git-add
+git add
+git add /root
+cd /root
+git add
+locate git
+locate git | egrep Computacion
+locate git | egrep Computacion
+locate git 
+locate git | less
+clear
+git add --all
+git status
+git remote https://github.com/Luisfc68/TP_Computacion_Aplicada origin
+git remote https://github.com/Luisfc68/TP_Computacion_Aplicada 
+git init
+cd ..
+git add /root
+git add .
+cd ~/
+git add /root/
+git add /etc/
+git add /etc
+git push
+git remote add tp https://github.com/TP_Computacion_Aplicada
+git push tp
+git push --set-upstream tp master
+git rm --cached computacionaplicada
+-f
+git rm --cached -f computacionaplicada
+git push --set-upstream tp master
+clear
+git remove --purge git
+apt-get remove --purge git
+apt-get install git
+ls
+cat crontab
+cat weeb.sh 
+clear
+cd ..
 cd root
+git init
+rm -git
+rm -r -git
+rm -r .git
+ls -a
+cd .. 
+git init
+git add .
+rm -r .git
+git init
+git add /root/
+git add /u01/
+git add /u02/
+git add /u03/
+git add /etc/
+git add /opt/
+git commit -m "cosas"
+git remote add origin https://github.com/TP_Computacion_Aplicada
+git remote -v
+git push origin master
+git remote add origin https://github.com/Luisfc68/TP_Computacion_Aplicada
+git remote remove origin
+git remote add origin https://github.com/Luisfc68/TP_Computacion_Aplicada
+git remote -v
+git push origin master
+git commit origin master
+clear
+make git m="casi"
+git m="casi"
+git push -u origin master
+git checkout master
+git checkout master
+git merge
+git merge new-branch
+git branch
+git merge master
 ls
-mkdir montado
+cd u03
+ls
+clear
+cd ..
+git add /opt
+git push
+git push https://github.com/Luisfc68/TP_Computacion_Aplicada
+history | git add
+history | egrep git add
+history | egrep "git add"
+cd opt
+ls
+cd tp 
+ls
+mail 
+clear
+cd ~/
+grep 'EMAIL ID' /var/log/exim_mainlog
+mail
+domainname
+domainname -a
+domainname -A
+domainname -l
+clear
+domainname-s
+domainname -s
+domainname -i
+domainname -I
+domainname -d
+reboot
+echo hola | mail -s "h" root
+mail
+mail -f
+mail -f /var/spool/mail/nobody
+cd /var/spool/mail
+ls
+cat nobody
 ls -l
-mount /dev/sdc /root/montado
-mount /dev/sdc1 /root/montado
+ls -la
+cd ~/
+ls -la
+cat .config/
+cat .profile 
+cat .bashrc 
+fws
+echo hola | mail -s "h" root
+mail
 clear
-mount /dev/sdc1 /root/montado
-ls -l 
-chmod o-w montado
-ls -l 
-chmod o-w montado
-ls -l 
-chmod 555 montado
-ls -l 
-mount /dev/sdc1 /root/montado
-mount /dev/sdd1 /root/montado
-mount /dev/sdd1dfgdf /root/montado
-clea
+ls -la
+cat .vimrc
+cat .selected_editor 
+cat mbox
+rm mbox
+echo hola | mail -s "h" root
+mail
+ls -la
+apt-get remove mailutils
+apt-get install mailutils
+echo hola | mail -s "h" root
+mail
 clear
-reboot
-blkid
-lsblk
-blkid
-blkid | egrep /de/sdd1
-blkid | egrep /dev/sdd1
-blkid | egrep /dev/sdd1 | tr "\s" " \n"
-blkid | egrep /dev/sdd1 >> /etc/fstab
-nano /etc/fstab
-vim /etc/stab
-vim /etc/fstab
-vim /etc/fstab
-reboot
-blkid
+ls -la
+cd .gnupg/
 ls
-lsblk
-mount /dev/sdb1 /montado
-mount /dev/sdb1 montado
-mount /dev/sdb1 /root/montado
-mdadm --zero-superblock /dev/sdb1
-mount /dev/sdb1 /root/montado
-mount /dev/sdc1 /root/montado
-clear
-poweroff
-lsblk
-lsblk
-cd /
-ls
-cd media
-ls
-cd ..
-cd dev
-ls
-cd sdb1
-cd sdb
-mount sdb1 /prueba
-mkdir /prueba
-mount sdb1 /prueba
-clear
-fdisk /dev/sdc
-clear
-lsblk
-fdisk sda2
-clear
-lsblk
-mount sdb1 /prueba
-man mkfs
-mkfs -t
-clear
-fdisk -l
-clear
-mount sdb1 /prueba
-fdisk -l
-mount sdc1 /prueba
-clear
-cd ..
-ls
-mount sdc1 /prueba
-cd dev
-mount sdc1 /prueba
-clear
-cat /proc/mdstat 
-lsblk
-mdadm --create /dev/md1 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
-mdadm --query /dev/md1
-mdadm --detail
-mdadm --detail /dev/md1
-lsblk
-fdisk /dev/md1
-lsblk
-clear
-cat /proc/mdstat 
-fdisk -l
-fdisk -l | less
-fdisk -l | less
-clear
-lsblk
-fdisk /dev/sdb1
-fdisk /dev/sdb
-lsblk
-fdisk /dev/sdc
-lsblk
-fdisk -l
-lsblk
-fdisk /dev/md1/md1p1
-fdisk /dev/md1
-fdisk /dev/md1p1
-history
-history | less
-clear
-fdisk /dev/md1p1
-reboot
-clear
-lsblk
-fdisk /dev/md127
-fdisk /dev/md127
-clear
-lsblk
-pvcreate /dev/md127p1
-pvdisplay
-pvs
-pvdisplay
-lsblk
-vgcreate vgraid /dev/md127p1
-clear
-vgs vgraid
-lvcreate -n u01 -L 5G vgraid
-lvcreate -n u02 -L 7G vgraid
-lvcreate -n u03 -L 10G vgraid
-lvcreate -n u03 -L 10240M vgraid
-lvcreate -n u03  vgraid
-lvcreate -n u03 vgraid
-lvcreate -n u03 -L vgraid
-lvcreate -n u03 -L 10239M vgraid
-lvcreate -n u03 -L 10230M vgraid
-lvcreate -n u03 -L 10220M vgraid
-lvdisplay -C
-lsblk
-fdisk /dev/vgraid-u01
-cd /dev
+cd .. 
+cd .config/
 ls
 ls -l
-ls -l | less
-ls -l | egrep ^d
+man fish
 clear
-ls -l | egrep ^d
-cd vgraid
+cd ..
+ls
+ls -la
+cd .local/
 ls
 ls -l
-cd ..
-ls -l | 
-ls -l | egrep dm
-fdisk /dev/vgraid/u01
-clear
-mkfs -t ext4 /dev/vgraid/u01
-mkfs -t xfs /dev/vgraid/u02
-lslkb
-lslk
-lsblk
-mkfs -t XFS /dev/vgraid/u02
-mkfs -t VXFS /dev/vgraid/u02
-mkfs -t brtfs /dev/vgraid/u02
-mkfs -t Brtfs /dev/vgraid/u02
-
-man mkfs
-clear
-mkfs -t ext2 /dev/vgraid/u02
-mkfs -t ext3 /dev/vgraid/u03
-lsblk
-cd ..
-mkdir {u01,u02,u03}
+cd share/
 ls
-mount /dev/vgraid/u01 /u01
-lsblk
-cd u01
-touch hola
-rm hola
 cd ..
-unmount /u01
-unmount /dev/vgraid/u01
+cd .. 
+whereis mutt
+which mutt
+apt-get install mutt
+apt-get update
+apt-get install mutt
+apt-cache search mutt
+clear
+apt-cache search mutt
+apt-get install mutt
+clear
+bash conectar_internet.sh 
+apt-get install mutt
+mail -s "h" root
+mail
+apt-get install mailutils
+man mutt
+mutt
+echo hola | mail -s "h" root
+mutt
+clear
+mail
+mutt -s "hola" root 
+mail
+mutt
+mail
+mutt
+mail
+clear
+bash conectar_internet.sh 
+bash conectar_internet.sh 
+ping google.com
+echo hola | mail -s "s" root
+mail
+which mail
+whereis mail
+cd etc
 cd /etc
-nano fstab
-vim fstab
-lsblk -l
+ls
+cat email-addresses 
+vim email-addresses 
+echo hola | mail -s "s" root
+mail
+echo hola | mail -s "s" root@debian.up
+mail
+vim email-addresses 
+/var/mail/
+cd /var/mail/
+ls
+ls
+ls
+ls
+ls -l
+echo hola | mail -s "s" elpepe
+ls
+echo hola | mail -s "s" elpepe
+mail
 clear
-vgs
-vgdisplay vgraid
-lvs
-lvdisplay /dev/vgraid/u01
-lvdisplay /dev/vgraid/u01 | egrep LV UUID > uids
-lvdisplay /dev/vgraid/u01 | egrep "LV UUID" > uids
-vim uids
-lvdisplay /dev/vgraid/u01 | egrep "LV UUID" >> /etc/fstab
-rm uids
-vim fstab
-lvdisplay /dev/vgraid/u02 | egrep "LV UUID" >> /etc/fstab
-vim fstab
-lvdisplay /dev/vgraid/u03 | egrep "LV UUID" >> /etc/fstab
-vim fstab
-rebooy
-reboot
-lsblk
-vim /etc/fstab
-rebot
-reboot
-cat /etc/fstab
-blkid
-vim /etc/fstab
-blkid
-blkid | egrep "/dev/mapper" >> /etc/fstab
-vim /etc/fstab
-blkid | egrep "/dev/mapper" >> /etc/fstab
-vim /etc/fstab
-reboot
-lsblk
-ls /
+cd ~/
+whereis exim5
+whereis exim4
+whereis sendmail
+netstat -tulp'n
+netstat -tulpn
 poweroff
 clear
-lsblk
-poweroff
-sudo poweroff
+cat /etc/passwd
+adduser 
+adduser alumno
+clear
+exit
+echo desde root  | mail -s "dr" root
+mail
+exit 
+echo desde root  | mail -s "dr2" alumno
+echo desde root  | mail -s "dr2" root@debian.up
+mail
+exit
+clear
+cat /etc/passwd
+clear
+cat /etc/aliases 
+vim /etc/aliases 
+echo desde root  | mail -s "dr3" root@debian.up
+mail
+vim /etc/aliases 
+echo desde root  | mail -s "dr3" root@debian.up
+clear
+ls /var/log/exim4/
+cd /var/log/exim4/
+ls
+ls -l
+cat mainlog
+clear
+vim /etc/aliases 
+echo desde root  | mail -s "dr4" root@debian.up
+mail
+cat mainlog | egrep root
+vim /etc/aliases 
+echo desde root  | mail -s "root" root@debian.up
+cat mainlog | egrep root
+mail
+cd /var/mail
+ls
+cat alumno
+ls
+cat root
+cat mail
+cat nobody
+clear
+exit
+ls 
+ls -la
+vim .forward
+cat.forward
+cat .forward
+echo desde root  | mail -s "prueba1" root@debian.up
+mail
+ls -la
+cd mail
+cd Mail
+ls
+cd .. 
+echo desde root  | mail -s "prueba2" root@debian.up
+mail
+vim /etc/aliases 
+echo desde root  | mail -s "prueba2" root@debian.up
+mail
+clear
+dpkg-reconfigure exim4-config
+clear
+echo desde root  | mail -s "prueba2" root@debian.up
+mail
+echo desde root  | mail -s "prueba2" alumno@debian.up
+mail
+newaliases
+service exim4 restart
+echo desde root  | mail -s "prueba2" alumno@debian.up
+echo desde root  | mail -s "prueba2" root@debian.up
+mial
+mail
+vim /etc/aliasses
+vim /etc/aliases
+newaliases
+service exim4 restart
+echo desde root  | mail -s "prueba2" root@debian.up
+mail
+clear
+/var/mail
+ls
+cd /var/mail
+ls
+cat root
+cat mail
+cat mail | less
+echo > mail
+cat mail
+echo desde root  | mail -s "prueba2" root@debian.up
+cat root
+cat mail
+echo desde root  | mail -s "prueba3" alumno@debian.up
+cat mail
+cat alumno
+clear
+cd .. 
+cd spool
+ls
+cd mail
+ls
+cat alumno
+clear
+cat root
+cat mail
+vim /etc/crontab
+crontab -e
+mail 
+bash /opt/tp/scripts/monitor.sh mysqld
+mail
+mail
+clear
+mail
+cd .. 
+cd ..
+cd mail 
+echo probando | mail -s "prueba5" root && ok
+echo probando | mail -s "prueba5" root && echo ok 
+cat root
+cat mail
+bash /opt/tp/scripts/monitor.sh yes
+cat mail
+cat root
+mail
+cat mail
+echo > mail
+cat mail
+cat root
+crontab -e
+cd ~/
+cat quepasa.txt 
+clear
+mail
+mail
+cd /var/mail/
+cat mail
+cat root
+cat root
+cat mail
+crontab -e
+mail
+cat mail
+vim /etc/crontab
+mail
+cat mail
+echo > mail
+cat mail
+vim /etc/crontab 
+crontab -e
+clear
+cat mail
+cat root
+cat mail
+cat root
+crobtab -e
+crontab -e
+cat root
+cat mail
+vim /etc/crontab
+crontab -e
+cat mail
+cat root
+crontab -e
+reboot
