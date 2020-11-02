@@ -1,500 +1,500 @@
-mail
-cd ~/
-mail -s "prueba" root < lineas
-mail
-clear
-cat /etc/passwd
-mail -s "prueba" root@localhost < lineas
-mail
-mail -s "prueba" root@127.0.0.1 < lineas
-mail
-mail -s "prueba" root@127.0.0.1 <<< "hola como estas"
-mai
-mail -s "prueba" root
-mail
-mail
-clear
-cd /var/mail/
 ls
-
-mail -s "prueba" root@debian <<< "hola como estas"
-mail
-uname
-uname
-linux
-uname
-cd /root
-clear
-bash weeb.sh 
-bash weeb.sh 
-hostname
-domainname
-echo qlq | mail -s "test" root
-mail
-echo qlq | mail -s "test" root@debian
-mail
-echo qlq | mail -s "test" root@debian.local
-mail
-echo qlq | mail -s "test" root@debian.up
-mail
-ls -a
-vim .bashrc
-clear
-vim weeb.sh 
-bash weeb.sh 
-env | egrep MIL
-env | egrep MAIL
-cd /var/mail/rot
-cd /var/mail/root
-cd /var/mail/
-cat root
-cat root
-bash weeb.sh 
-ls
-cd /root
-bash weeb.sh 
-cd /opt/tp/scripts/
-vim funciones.sh 
-prueba -h
-bash prueba -h
-bash prueba.sh -h
-ls
-bash pruebas.sh -h
-vim pruebas.sh 
-vim funciones.sh 
-bash pruebas.sh -h
-bash pruebas.sh -h
-vim funciones.sh 
-clear
-finger
-bash finger
-clear
-which finger
-pincky
-pinky
-pinky -l luis
-pinky -l 
-pinky -l luis
-pinky -l root
-sendmail
-man sendmail
-clear
-echo $MAIL
-cd /var/mail
-ls -l
-cat root
-chmod a+rw root 
-ls -l
-echo luis | mail -s "p" 
-echo luis | mail -s "p" root
-cat root
-mail
-echo luis | mailx -s "p" root
-cat root
-echo luis | mailx -s "p" 
-clear
-cd .. && cd .. 
-git add /root
-git add github.com/Luisfc68/TP_Computacion_Aplicada
-git add github.com/Luisfc68/TP_Computacion_Aplicada /root
-git add https://github.com/Luisfc68/TP_Computacion_Aplicada 
-git add https://github.com/Luisfc68/TP_Computacion_Aplicada /root
-history | egrep git 
-git add https://github.com/Luisfc68/TP_Computacion_Aplicada /root
-git add https://github.com/Luisfc68/TP_Computacion_Aplicada /root
-git add https://github.com/Luisfc68/TP_Computacion_Aplicada
-git push https://github.com/Luisfc68/TP_Computacion_Aplicada /root
-man git
-man git
-clear
-man git
-git add
-git-add
-git add
-git add /root
-cd /root
-git add
-locate git
-locate git | egrep Computacion
-locate git | egrep Computacion
-locate git 
-locate git | less
-clear
-git add --all
-git status
-git remote https://github.com/Luisfc68/TP_Computacion_Aplicada origin
-git remote https://github.com/Luisfc68/TP_Computacion_Aplicada 
-git init
+ls .. 
 cd ..
-git add /root
-git add .
-cd ~/
-git add /root/
-git add /etc/
-git add /etc
-git push
-git remote add tp https://github.com/TP_Computacion_Aplicada
-git push tp
-git push --set-upstream tp master
-git rm --cached computacionaplicada
--f
-git rm --cached -f computacionaplicada
-git push --set-upstream tp master
+rm -rd restore/
 clear
-git remove --purge git
-apt-get remove --purge git
-apt-get install git
 ls
-cat crontab
-cat weeb.sh 
+cd pruebas
+ls
+cat relleno.sh 
+ps
+bash relleno.sh 
+bash relleno.sh 
+bash relleno.sh 
+clear
+ps
+cd ..
+htop
+clear
+vim backup_full.sh 
+clear
+ps
+bash backup_full.sh ./pruebas /u03
+cd pruebas/
+fuser *
+fuser *
+ls
+fuser relleno.sh
+cd ..
+fuser fuser 
+fuser fuser pruebas/*
+fuser pruebas/*
+find pruebas/
+lsof -p 1005
+vim backup_full.sh 
+fuser pruebas
+man fuser
 clear
 cd ..
-cd root
-git init
-rm -git
-rm -r -git
-rm -r .git
-ls -a
-cd .. 
-git init
-git add .
-rm -r .git
-git init
-git add /root/
-git add /u01/
-git add /u02/
-git add /u03/
-git add /etc/
-git add /opt/
-git commit -m "cosas"
-git remote add origin https://github.com/TP_Computacion_Aplicada
-git remote -v
-git push origin master
-git remote add origin https://github.com/Luisfc68/TP_Computacion_Aplicada
-git remote remove origin
-git remote add origin https://github.com/Luisfc68/TP_Computacion_Aplicada
-git remote -v
-git push origin master
-git commit origin master
-clear
-make git m="casi"
-git m="casi"
-git push -u origin master
-git checkout master
-git checkout master
-git merge
-git merge new-branch
-git branch
-git merge master
+cd ..
+fuser /tp/scripts/pruebas
+fuser /tp/scripts/pruebas
 ls
-cd u03
+fuser ./tp/scripts/prueba
+fuser ./tp/scripts/pruebas
+cd tp/scripts/pruebas/
 ls
+rm relleno.sh 
+ps
+vim relleno.sh
 clear
 cd ..
-git add /opt
-git push
-git push https://github.com/Luisfc68/TP_Computacion_Aplicada
-history | git add
-history | egrep git add
-history | egrep "git add"
-cd opt
-ls
-cd tp 
-ls
-mail 
+cd ..
+cd scripts/
+ps
+fuser /u02
+find /u02 
+find /u02 | fuser
 clear
-cd ~/
-grep 'EMAIL ID' /var/log/exim_mainlog
-mail
-domainname
-domainname -a
-domainname -A
-domainname -l
-clear
-domainname-s
-domainname -s
-domainname -i
-domainname -I
-domainname -d
-reboot
-echo hola | mail -s "h" root
-mail
-mail -f
-mail -f /var/spool/mail/nobody
-cd /var/spool/mail
 ls
-cat nobody
-ls -l
-ls -la
-cd ~/
-ls -la
-cat .config/
-cat .profile 
-cat .bashrc 
-fws
-echo hola | mail -s "h" root
-mail
-clear
-ls -la
-cat .vimrc
-cat .selected_editor 
-cat mbox
-rm mbox
-echo hola | mail -s "h" root
-mail
-ls -la
-apt-get remove mailutils
-apt-get install mailutils
-echo hola | mail -s "h" root
-mail
-clear
-ls -la
-cd .gnupg/
-ls
-cd .. 
-cd .config/
-ls
-ls -l
-man fish
+ps
+kill 1005 && kill 1007 && kill 1009
+cd ..
+find /u02 > 02.txt
+fuser <02.txt
+fuser < 02.txt
+while read -r ;  q
+while read -r ;  do 
+while read -r ARCH ;  do  fuser $ARCH ; done < 02.txt
+while read -r ARCH ;  do  fuser $ARCH ; done < 02.txt
+while read -r ARCH ;  do;  fuser $ARCH ; done < 02.txt
+while read -r ARCH ;  do  fuser $ARCH ; done < 02.txt
+while read -r ARCH ;  do  fuser $ARCH ; done < 02.txt
+while read -r ARCH ;  do  fuser $ARCH ; done < 02.txt
+while read -r ARCH ;  do  fuser $ARCH ; done < 02.txt
+cd scripts/
+cd pruebas/
+bash relleno.sh 
+bash relleno.sh 
+bash relleno.sh 
+ps
 clear
 cd ..
-ls
-ls -la
-cd .local/
-ls
-ls -l
-cd share/
-ls
 cd ..
-cd .. 
-whereis mutt
-which mutt
-apt-get install mutt
-apt-get update
-apt-get install mutt
-apt-cache search mutt
+ls
+find ./scripts/pruebas > p.txt
+while read -r ARCH ;  do  fuser $ARCH ; done < p.txt
+ls
+ps
+kill {1850,1852,1854}
+ps
 clear
-apt-cache search mutt
-apt-get install mutt
-clear
-bash conectar_internet.sh 
-apt-get install mutt
-mail -s "h" root
-mail
-apt-get install mailutils
-man mutt
-mutt
-echo hola | mail -s "h" root
-mutt
-clear
-mail
-mutt -s "hola" root 
-mail
-mutt
-mail
-mutt
-mail
-clear
-bash conectar_internet.sh 
-bash conectar_internet.sh 
-ping google.com
-echo hola | mail -s "s" root
-mail
-which mail
-whereis mail
-cd etc
-cd /etc
 ls
-cat email-addresses 
-vim email-addresses 
-echo hola | mail -s "s" root
-mail
-echo hola | mail -s "s" root@debian.up
-mail
-vim email-addresses 
-/var/mail/
-cd /var/mail/
+cd scripts/
 ls
-ls
-ls
-ls
-ls -l
-echo hola | mail -s "s" elpepe
-ls
-echo hola | mail -s "s" elpepe
-mail
-clear
-cd ~/
-whereis exim5
-whereis exim4
-whereis sendmail
-netstat -tulp'n
-netstat -tulpn
+vim backup_full.sh 
+vim backup_full.sh 
+vim backup_full.sh 
+bash ~/conectar_internet.sh 
+bash backup_full.sh /bin/ /root
+vim backup_full.sh 
+bash backup_full.sh /bin/ /root
+bash backup_full.sh /bin /root
+vim backup_full.sh 
+bash backup_full.sh /bin /root
+bash backup_full.sh /bin/ /root
+pgrep htop
+vim backup_full.sh 
+bash backup_full.sh /bin/ /root
 poweroff
+htop
+jobs
+jobs
+jobs
+jobs --l
+jobs -l
+htop
+jobs
+jobs /l
+jobs -l
 clear
-cat /etc/passwd
-adduser 
-adduser alumno
+htop
 clear
-exit
-echo desde root  | mail -s "dr" root
-mail
-exit 
-echo desde root  | mail -s "dr2" alumno
-echo desde root  | mail -s "dr2" root@debian.up
-mail
-exit
+htop
 clear
-cat /etc/passwd
+ls
+bash conectar_internet.sh 
 clear
-cat /etc/aliases 
-vim /etc/aliases 
-echo desde root  | mail -s "dr3" root@debian.up
-mail
-vim /etc/aliases 
-echo desde root  | mail -s "dr3" root@debian.up
+cd /opt/tp/scripts/
+ls
+cd ..
+ls
+cat p.txt 
+cat 02.txt 
 clear
-ls /var/log/exim4/
-cd /var/log/exim4/
+ls
+rm {02,p}.txt
+ls
+cd scripts/
+ls
+vim backup_full.sh 
+cp backup_full.sh /root
+cd ~/
+ls
+cd root
+ls
+cd root
+ls
+clear
+bash backup_full.sh /bin/ ./
 ls
 ls -l
-cat mainlog
 clear
-vim /etc/aliases 
-echo desde root  | mail -s "dr4" root@debian.up
-mail
-cat mainlog | egrep root
-vim /etc/aliases 
-echo desde root  | mail -s "root" root@debian.up
-cat mainlog | egrep root
-mail
-cd /var/mail
 ls
-cat alumno
+tar -xzf bin_bkp_20201101.tar.gz 
 ls
-cat root
-cat mail
-cat nobody
+cd bin
+ls -l
 clear
-exit
-ls 
-ls -la
-vim .forward
-cat.forward
-cat .forward
-echo desde root  | mail -s "prueba1" root@debian.up
-mail
-ls -la
-cd mail
-cd Mail
 ls
-cd .. 
-echo desde root  | mail -s "prueba2" root@debian.up
-mail
-vim /etc/aliases 
-echo desde root  | mail -s "prueba2" root@debian.up
-mail
-clear
-dpkg-reconfigure exim4-config
-clear
-echo desde root  | mail -s "prueba2" root@debian.up
-mail
-echo desde root  | mail -s "prueba2" alumno@debian.up
-mail
-newaliases
-service exim4 restart
-echo desde root  | mail -s "prueba2" alumno@debian.up
-echo desde root  | mail -s "prueba2" root@debian.up
-mial
-mail
-vim /etc/aliasses
-vim /etc/aliases
-newaliases
-service exim4 restart
-echo desde root  | mail -s "prueba2" root@debian.up
-mail
-clear
-/var/mail
+rm bin
 ls
-cd /var/mail
-ls
-cat root
-cat mail
-cat mail | less
-echo > mail
-cat mail
-echo desde root  | mail -s "prueba2" root@debian.up
-cat root
-cat mail
-echo desde root  | mail -s "prueba3" alumno@debian.up
-cat mail
-cat alumno
 clear
-cd .. 
-cd spool
 ls
-cd mail
+rm bin_bkp_20201101.tar.gz 
+clear
 ls
-cat alumno
 clear
-cat root
-cat mail
-vim /etc/crontab
-crontab -e
-mail 
-bash /opt/tp/scripts/monitor.sh mysqld
-mail
-mail
+ls
+ls -l
+time
+load
 clear
-mail
-cd .. 
+ls
+cat quepasa.txt 
+clear
+clear
+cd /opt/tp/scripts/
+cat monitor.sh 
+clear
+mutt
+clear
+cd /opt/tp/scripts/
+ls
+vim backup_full.sh 
+clear
+bash backup_full.sh /u02/ ~/
+bash backup_full.sh /u02 ~/
+bash backup_full.sh /u02/ /root
+bash backup_full.sh /u02/ /root/
+bash backup_full.sh /bin/ /root/
+ls
+cd ~/
+ls
+rm u_bkp_20201101.tar.gz 
+clear
+ls
+tar -xzcf bin_bkp_20201101.tar.gz 
+tar -xzf bin_bkp_20201101.tar.gz 
+ls
+cd bin
+ls -l
+cd /opt/tp/scripts/
+ls
+vim backup_full.sh 
+bash backup_full.sh /u02/ /root/
+clear
+ls
+cd ~/
+ls
+tar -xzf u_bkp_20201101.tar.gz 
+rm bin
+ls
+cd lus -l
+ls -l
+cd u02/
+ls
+ls -l
+cd mcdy m
+cd mysql/
+ls
+clear
 cd ..
-cd mail 
-echo probando | mail -s "prueba5" root && ok
-echo probando | mail -s "prueba5" root && echo ok 
-cat root
-cat mail
-bash /opt/tp/scripts/monitor.sh yes
-cat mail
-cat root
-mail
-cat mail
-echo > mail
-cat mail
-cat root
-crontab -e
+cd ..
+clear
+ls
+rm -rd u02/
+rm u_bkp_20201101.tar.gz 
+cd /opt/tp/scripts/
+vim backup_full.sh 
+man tr
+vim backup_full.sh 
+bash backup_full.sh /u02/ /root/
+cd ~/
+ls
+vim backup_full.sh 
+ls
+bash conectar_internet.sh 
+cd /opt/tp/scripts/
+vim backup_full.sh 
+bash backup_full.sh -h
+vim backup_full.sh 
+bash backup_full.sh a b c
+bash backup_full.sh /u02 /root/
+bash backup_full.sh /u02/ /root/
+bash backup_full.sh /u02/ /root
+bash backup_full.sh /u02 /root
+cd ~/
+rm u02_bkp_20201101.tar.gz 
+cd /opt/tp/scripts/
+bash backup_full.sh /u02 /root
+bash backup_full.sh /bin /root
+bash backup_full.sh /bin/ /root
+clear
+ls
+ls -l
+cd pruebas/
+ls
+vim relleno.sh 
+bash relleno.sh hola
+vim relleno.sh 
+bash relleno.sh hola
+bash relleno.sh hola/
+bash relleno.sh hola/
+bash relleno.sh hola/
+bash relleno.sh hola/
+bash relleno.sh hola/
+clear
+echo hola | head -c -1
+echo hola | head -c -2
+echo hola | head -c -3
+echo hola | head -c -4
+echo hola | tail -c -1
+echo hola | tail -c -1
+clear
+echo hola | tail -c -2
+echo hola| tail -c -2
+echo hola/ | tail -c -2
+echo hola/ | tail -c -2
+echo hola/ | tail -c -2
+echo hola | tail -c -1
+echo hola | tail -c -1
+echo hola | tail -c -1
+echo hola | tail -c -1
+echo hola | tail -c -2
+echo hola | tail -c -2
+echo hola | tail -c -2
+echo hola | tail -c -2
+clear
+vim relleno.sh 
+man tail
+clear
+vim relleno.sh 
+bash relleno.sh hola
+bash relleno.sh hola/
+bash relleno.sh hola
+bash relleno.sh hola
+bash relleno.sh hola/
+clear
+vim relleno.sh 
+cd ..
+vim backup_full.sh 
+nano
+clear
+ls
+nano backup_full.sh 
+clear
+vim backup_full.sh 
+clear
+bash backup_full.sh /bin ~/
+clear
+mutt
+mutt /var/mail/mail
+clear
+mutt
+clear
+man mutt
+cd ~/
+vim .muttrc
+ls -la
+man mutt
+ma mutt
+man mutt
+mutt -f /var/mail/mail
+/var/spool/
+ls
+cd /var/spool/
+ls
+cd mail
+ls
+mutt -f /var/spool/mail/root
+ls
+mutt -f /var/spool/mail/mail
+clear
+man date
+clear
+date +%H%M%S
+date +%H:%M:%S
+cd /opt/tp/scripts/
+vim backup_full.sh 
+cat pruebas
+cat prueba.sh
+ls
+cat pruebas.sh
+vim backup_full.sh 
+bash backup_full.sh /u02 /root/
+vim backup_full.sh 
+cd /dev/shm
+ls
+cat log14370.temp 
+date +%H:%M:%S
+vim backup_full.sh 
+clear
+cd /opt/tp/scripts/
+ls
+cd pruebas/
+ls
+vim relleno.sh 
+vim relleno.sh 
+bash relleno.sh 
+cd .. 
+vim backup_full.sh 
+vim backup_full.sh 
+clear
+cd ~/
+ls
+rm bin_bkp_20201101.tar.gz 
+rm u02_bkp_20201101.tar.gz 
+cd /opt/tp/scripts/
+ls
+rm _bkp_20201029.tar.gz 
+ls
+bash backup_full.sh /u02 /root
+cd /dev/shm
+ls
+cat log14896.temp 
+cat log14896.temp | less
+clear
+rm ./*
+cd /opt/tp/scripts/
+vim backup_full.sh 
+clear
+bash backup_full.sh /u02 /root
+cd /dev/shm/
+cat log15353.temp 
+cat log15353.temp | less
+cd /opt/tp/scripts/
+vim backup_full.sh 
+bash backup_full.sh /u02 /root
+/dev/shm/
+cd /dev/shm/
+ls
+cat log15815.temp | less
+clear
+cd /opt/tp/scripts/
 cd ~/
 cat quepasa.txt 
 clear
-mail
-mail
+cd /opt/tp/scripts/
+vim backup_full.sh 
+cd /dev/shm/
+ls
+rm ./*
+clear
+cd /var/mail/mail
 cd /var/mail/
-cat mail
-cat root
-cat root
-cat mail
-crontab -e
-mail
-cat mail
-vim /etc/crontab
-mail
-cat mail
 echo > mail
 cat mail
+cat root
+cd /var/spool/
+cat mail
+cd mail && cat mail
+clear
+cd /opt/tp/scripts/
+bash backup_full.sh /u02 /root
+mutt
+cd /dev/shm/
+ls
+mutt -f /var/mail/mail
+clear
+crontab -e
+crontab -e
+vim /etc/crontab
+iptables -l
+iptables -L
+clear
+iptables -L
+crontab -e
+cat /var/spool/cron/
+cat /var/spool/cron/root
+ls /var/spool/cron
+ls /var/spool/cron/crontabs/root 
+cat /var/spool/cron/crontabs/root 
+cat /var/spool/cron/crontabs/root | tail -1
+cat /var/spool/cron/crontabs/root | tail -1 >> /etc/crontab
+vim /etc/crontab
+reboot
+clear
+iptables -L
+vim /etc/crontab
+reboot
+iptables -L
 vim /etc/crontab 
 crontab -e
-clear
-cat mail
-cat root
-cat mail
-cat root
-crobtab -e
-crontab -e
-cat root
-cat mail
-vim /etc/crontab
-crontab -e
-cat mail
-cat root
-crontab -e
 reboot
+iptables -L
+vim /etc/crontab
+vim /etc/crontab
+vim /etc/crontab
+vim /etc/crontab
+mutt -f /var/mail/mail
+vim /etc/crontab
+clear
+mutt -f /var/mail/mail
+vim /etc/crontab
+clear
+/var/logs
+cd /var/logs
+cd var
+cd /var
+ls
+cd log
+ls
+mutt -f /var/mail/mail
+clear
+vim /etc/crontab
+clear
+cd /
+ls -l
+chmod a+w u03
+vim /etc/crontab
+cal
+time
+date +%H%M%S
+date now
+man dat
+date %T
+clear
+mutt -f /var/mail/mail
+clear
+cd /opt/tp/scripts/
+ls -l
+chmod +x *
+ls -l
+chmod -x fechas.txt s
+ls -l
+vim /etc/crontab
+vim /etc/crontab
+clear
+mutt -f /var/mail/mail
+cd u03
+cd /u03
+ls
+vim /etc/crontab
+systemctl kill sshd.service 
+mutt -f /var/mail/mail
+clear
+systemctl start sshd.service 
+poweroff
+mutt -f /var/mail/mail
+vim /etc/crontab 
