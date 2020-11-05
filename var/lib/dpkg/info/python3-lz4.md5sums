@@ -1,0 +1,16 @@
+aa8fab4570ba132a02dbb77b0aa4f369  usr/lib/python3/dist-packages/lz4-1.1.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/lz4-1.1.0.egg-info/dependency_links.txt
+194b36a8466e4650490040d599b09c0e  usr/lib/python3/dist-packages/lz4-1.1.0.egg-info/top_level.txt
+8525b3af6cafc27e8a687b54387ab93d  usr/lib/python3/dist-packages/lz4/__init__.py
+c85b891a6f911e15544f63f6d539ed98  usr/lib/python3/dist-packages/lz4/_version.cpython-36m-x86_64-linux-gnu.so
+49126800f597c20100b9ef01eb682666  usr/lib/python3/dist-packages/lz4/_version.cpython-37m-x86_64-linux-gnu.so
+f6d8b571df99328171051a9a194b1472  usr/lib/python3/dist-packages/lz4/block/__init__.py
+6bade16d8d32c99136a3f857d9bdcaff  usr/lib/python3/dist-packages/lz4/block/_block.cpython-36m-x86_64-linux-gnu.so
+3013455da5d4b90f0c04a3762879f25a  usr/lib/python3/dist-packages/lz4/block/_block.cpython-37m-x86_64-linux-gnu.so
+c97b9ca359aa000568f40d5dc68b4af8  usr/lib/python3/dist-packages/lz4/frame/__init__.py
+6ddbddfac5074d377bcd1942ef5ead93  usr/lib/python3/dist-packages/lz4/frame/_compression.py
+ffb601adf3dd520e6883f6d07f19d76b  usr/lib/python3/dist-packages/lz4/frame/_frame.cpython-36m-x86_64-linux-gnu.so
+d492168a823f21dc9f2dc8ed40a01241  usr/lib/python3/dist-packages/lz4/frame/_frame.cpython-37m-x86_64-linux-gnu.so
+aaa80cc34819a0d3b5218f0a6e59e5ab  usr/lib/python3/dist-packages/lz4/version.py
+25922b0a5aaec9063d2b653d7a47e5d8  usr/share/doc/python3-lz4/changelog.Debian.gz
+633120e52ad10a28c9b1a08f89cb701f  usr/share/doc/python3-lz4/copyright

@@ -1,0 +1,4 @@
+update-alternatives 2020-11-05 00:27:50: run with --remove editor /bin/nano
+update-alternatives 2020-11-05 00:27:50: link group editor updated to point to /usr/bin/vim.basic
+update-alternatives 2020-11-05 00:27:50: run with --remove pico /bin/nano
+update-alternatives 2020-11-05 00:27:50: link group pico fully removed

@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/bin
+/usr/bin/trans
+/usr/share
+/usr/share/doc
+/usr/share/doc/translate-shell
+/usr/share/doc/translate-shell/README.Debian
+/usr/share/doc/translate-shell/README.md.gz
+/usr/share/doc/translate-shell/README.template.md.gz
+/usr/share/doc/translate-shell/changelog.Debian.gz
+/usr/share/doc/translate-shell/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/trans.1.gz

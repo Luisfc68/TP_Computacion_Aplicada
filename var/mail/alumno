@@ -1,0 +1,140 @@
+From root@debian.up Wed Oct 28 15:26:54 2020
+Return-path: <root@debian.up>
+Envelope-to: root@debian.up
+Delivery-date: Wed, 28 Oct 2020 15:26:54 -0300
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1kXq9u-0000HF-28
+	for root@debian.up; Wed, 28 Oct 2020 15:26:54 -0300
+Subject: dr
+To: <root@debian.up>
+X-Mailer: mail (GNU Mailutils 3.5)
+Message-Id: <E1kXq9u-0000HF-28@debian.up>
+From: root@debian.up
+Date: Wed, 28 Oct 2020 15:26:54 -0300
+X-IMAPbase: 1603909465 10
+X-UID: 2
+Status: RO
+Content-Length: 11
+Lines: 1
+
+desde root
+
+From root@debian.up Wed Oct 28 15:28:43 2020
+Return-path: <root@debian.up>
+Envelope-to: alumno@debian.up
+Delivery-date: Wed, 28 Oct 2020 15:28:43 -0300
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1kXqBf-0000IL-Bj
+	for alumno@debian.up; Wed, 28 Oct 2020 15:28:43 -0300
+Subject: dr2
+To: <alumno@debian.up>
+X-Mailer: mail (GNU Mailutils 3.5)
+Message-Id: <E1kXqBf-0000IL-Bj@debian.up>
+From: root@debian.up
+Date: Wed, 28 Oct 2020 15:28:43 -0300
+X-UID: 3
+Status: RO
+Content-Length: 10
+
+desde root
+From root@debian.up Wed Oct 28 15:28:52 2020
+Return-path: <root@debian.up>
+Envelope-to: root@debian.up
+Delivery-date: Wed, 28 Oct 2020 15:28:52 -0300
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1kXqBo-0000IQ-BD
+	for root@debian.up; Wed, 28 Oct 2020 15:28:52 -0300
+Subject: dr2
+To: <root@debian.up>
+X-Mailer: mail (GNU Mailutils 3.5)
+Message-Id: <E1kXqBo-0000IQ-BD@debian.up>
+From: root@debian.up
+Date: Wed, 28 Oct 2020 15:28:52 -0300
+X-UID: 4
+Status: RO
+Content-Length: 10
+
+desde root
+From root@debian.up Wed Oct 28 15:36:09 2020
+Return-path: <root@debian.up>
+Envelope-to: root@debian.up
+Delivery-date: Wed, 28 Oct 2020 15:36:09 -0300
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1kXqIr-0000K0-7w
+	for root@debian.up; Wed, 28 Oct 2020 15:36:09 -0300
+Subject: dr3
+To: <root@debian.up>
+X-Mailer: mail (GNU Mailutils 3.5)
+Message-Id: <E1kXqIr-0000K0-7w@debian.up>
+From: root@debian.up
+Date: Wed, 28 Oct 2020 15:36:09 -0300
+X-UID: 5
+Status: RO
+Content-Length: 10
+
+desde root
+From root@debian.up Wed Oct 28 15:55:22 2020
+Return-path: <root@debian.up>
+Envelope-to: alumno@debian.up
+Delivery-date: Wed, 28 Oct 2020 15:55:22 -0300
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1kXqbS-0000Yl-ML
+	for alumno@debian.up; Wed, 28 Oct 2020 15:55:22 -0300
+Subject: prueba2
+To: <alumno@debian.up>
+X-Mailer: mail (GNU Mailutils 3.5)
+Message-Id: <E1kXqbS-0000Yl-ML@debian.up>
+From: root@debian.up
+Date: Wed, 28 Oct 2020 15:55:22 -0300
+X-UID: 6
+Status: RO
+Content-Length: 10
+
+desde root
+From root@debian.up Wed Oct 28 16:01:15 2020
+Return-path: <root@debian.up>
+Envelope-to: alumno@debian.up
+Delivery-date: Wed, 28 Oct 2020 16:01:15 -0300
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1kXqh8-0000jz-VR
+	for alumno@debian.up; Wed, 28 Oct 2020 16:01:15 -0300
+Subject: prueba3
+To: <alumno@debian.up>
+X-Mailer: mail (GNU Mailutils 3.5)
+Message-Id: <E1kXqh8-0000jz-VR@debian.up>
+From: root@debian.up
+Date: Wed, 28 Oct 2020 16:01:14 -0300
+X-UID: 8
+Status: RO
+Content-Length: 11
+Lines: 1
+
+desde root
+
+From root@debian.up Wed Oct 28 23:13:44 2020
+Return-path: <root@debian.up>
+Envelope-to: alumno@debian.up
+Delivery-date: Wed, 28 Oct 2020 23:13:44 -0300
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1kXxRf-0001J4-R8
+	for alumno@debian.up; Wed, 28 Oct 2020 23:13:43 -0300
+Subject: hola
+To: <alumno@debian.up>
+X-Mailer: mail (GNU Mailutils 3.5)
+Message-Id: <E1kXxRf-0001J4-R8@debian.up>
+From: root@debian.up
+Date: Wed, 28 Oct 2020 23:13:43 -0300
+X-UID: 9
+Status: O
+Content-Length: 11
+Lines: 1
+
+hola amigo
+

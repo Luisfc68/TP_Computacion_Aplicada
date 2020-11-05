@@ -1,0 +1,5 @@
+654b6e5d8b69192849c709077a66bc6f  usr/share/doc/mysql-server/LICENSE.gz
+a20b602a57f4186a08fd3d74331fcfa7  usr/share/doc/mysql-server/README
+078d6c62f395bcfc86fab6180c247608  usr/share/doc/mysql-server/changelog.Debian.gz
+94ec8f8e4d1d30452cf6392d3b276aa7  usr/share/doc/mysql-server/copyright
+0950dafb61b6c7b5efb5b4908d9737d4  usr/share/lintian/overrides/mysql-server

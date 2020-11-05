@@ -1,0 +1,26 @@
+logrotate state -- version 2
+"/var/log/syslog" 2020-11-5-0:0:0
+"/var/log/dpkg.log" 2020-11-1-0:40:43
+"/var/log/auth.log" 2020-11-1-0:40:43
+"/var/log/apt/term.log" 2020-11-1-0:40:43
+"/var/log/apt/history.log" 2020-11-1-0:40:43
+"/var/log/alternatives.log" 2020-11-1-0:40:43
+"/var/log/debug" 2020-11-1-0:40:43
+"/var/log/mail.log" 2020-4-4-8:0:0
+"/var/log/kern.log" 2020-11-1-0:40:43
+"/var/log/apache2/access.log" 2020-11-5-0:0:0
+"/var/log/wtmp" 2020-4-4-8:0:0
+"/var/log/daemon.log" 2020-11-1-0:40:43
+"/var/log/mail.warn" 2020-4-4-8:0:0
+"/var/log/btmp" 2020-11-1-0:40:43
+"/var/log/lpr.log" 2020-4-4-8:0:0
+"/var/log/mail.err" 2020-4-4-8:0:0
+"/var/log/exim4/paniclog" 2020-10-25-18:0:0
+"/var/log/user.log" 2020-10-25-18:25:34
+"/var/log/mail.info" 2020-4-4-8:0:0
+"/var/log/apache2/other_vhosts_access.log" 2020-9-28-0:0:0
+"/var/log/apache2/error.log" 2020-11-5-0:0:0
+"/var/log/exim4/rejectlog" 2020-10-29-0:0:3
+"/var/log/exim4/mainlog" 2020-11-5-0:0:0
+"/var/log/cron.log" 2020-4-4-8:0:0
+"/var/log/messages" 2020-11-1-0:40:43

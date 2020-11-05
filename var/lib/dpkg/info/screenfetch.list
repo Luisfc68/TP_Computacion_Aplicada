@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/bin
+/usr/bin/screenfetch
+/usr/share
+/usr/share/doc
+/usr/share/doc/screenfetch
+/usr/share/doc/screenfetch/README.mkdn.gz
+/usr/share/doc/screenfetch/TODO
+/usr/share/doc/screenfetch/changelog.Debian.gz
+/usr/share/doc/screenfetch/changelog.gz
+/usr/share/doc/screenfetch/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/screenfetch.1.gz

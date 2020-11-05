@@ -21,9 +21,9 @@ $
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :q
-|2,0,1604546744,,"q"
+|2,0,1604618760,,"q"
 :wq
-|2,0,1604546718,,"wq"
+|2,0,1604548725,,"wq"
 :q!
 |2,0,1604544506,,"q!"
 :WQ
@@ -127,34 +127,60 @@ $
 |3,1,36,0,1,0,1604543863,"1"
 
 # Marcas en el archivo:
-'0  1  0  /opt/tp/scripts/monitor.sh
-|4,48,1,0,1604546744,"/opt/tp/scripts/monitor.sh"
-'1  1  0  /opt/tp/scripts/funciones.sh
-|4,49,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
-'2  48  0  /opt/tp/scripts/backup_full.sh
-|4,50,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
-'3  99  0  /opt/tp/scripts/funciones.sh
-|4,51,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
-'4  99  0  /opt/tp/scripts/funciones.sh
-|4,52,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
-'5  92  0  /opt/tp/scripts/funciones.sh
-|4,53,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
-'6  92  0  /opt/tp/scripts/funciones.sh
-|4,54,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
-'7  92  0  /opt/tp/scripts/funciones.sh
-|4,55,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+'0  1  0  /etc/fstab
+|4,48,1,0,1604618760,"/etc/fstab"
+'1  16  74  /etc/fstab
+|4,49,16,74,1604548725,"/etc/fstab"
+'2  16  74  /etc/fstab
+|4,50,16,74,1604548725,"/etc/fstab"
+'3  1  0  /opt/tp/scripts/monitor.sh
+|4,51,1,0,1604546744,"/opt/tp/scripts/monitor.sh"
+'4  1  0  /opt/tp/scripts/funciones.sh
+|4,52,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+'5  48  0  /opt/tp/scripts/backup_full.sh
+|4,53,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+'6  99  0  /opt/tp/scripts/funciones.sh
+|4,54,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+'7  99  0  /opt/tp/scripts/funciones.sh
+|4,55,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
 '8  92  0  /opt/tp/scripts/funciones.sh
 |4,56,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
-'9  79  80  /opt/tp/scripts/backup_full.sh
-|4,57,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+'9  92  0  /opt/tp/scripts/funciones.sh
+|4,57,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
 
 # Lista de saltos (el más reciente va primero):
+-'  1  0  /etc/fstab
+|4,39,1,0,1604618760,"/etc/fstab"
+-'  16  74  /etc/fstab
+|4,39,16,74,1604548725,"/etc/fstab"
+-'  16  74  /etc/fstab
+|4,39,16,74,1604548725,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1604548538,"/etc/fstab"
+-'  1  0  /opt/tp/scripts/monitor.sh
+|4,39,1,0,1604546744,"/opt/tp/scripts/monitor.sh"
+-'  1  0  /opt/tp/scripts/monitor.sh
+|4,39,1,0,1604546744,"/opt/tp/scripts/monitor.sh"
+-'  1  0  /opt/tp/scripts/monitor.sh
+|4,39,1,0,1604546744,"/opt/tp/scripts/monitor.sh"
 -'  1  0  /opt/tp/scripts/monitor.sh
 |4,39,1,0,1604546744,"/opt/tp/scripts/monitor.sh"
 -'  1  0  /opt/tp/scripts/funciones.sh
 |4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
 -'  1  0  /opt/tp/scripts/funciones.sh
 |4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
 -'  48  0  /opt/tp/scripts/backup_full.sh
 |4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
 -'  48  0  /opt/tp/scripts/backup_full.sh
@@ -163,6 +189,54 @@ $
 |4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
 -'  48  0  /opt/tp/scripts/backup_full.sh
 |4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
 -'  1  0  /opt/tp/scripts/backup_full.sh
 |4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
 -'  1  0  /opt/tp/scripts/backup_full.sh
@@ -183,6 +257,66 @@ $
 |4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
 -'  99  0  /opt/tp/scripts/funciones.sh
 |4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
 -'  1  0  /opt/tp/scripts/funciones.sh
 |4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
 -'  1  0  /opt/tp/scripts/funciones.sh
@@ -211,146 +345,44 @@ $
 |4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
 -'  92  0  /opt/tp/scripts/funciones.sh
 |4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
--'  1  0  /opt/tp/scripts/funciones.sh
-|4,39,1,0,1604545983,"/opt/tp/scripts/funciones.sh"
--'  1  0  /opt/tp/scripts/funciones.sh
-|4,39,1,0,1604545983,"/opt/tp/scripts/funciones.sh"
--'  1  0  /opt/tp/scripts/funciones.sh
-|4,39,1,0,1604545983,"/opt/tp/scripts/funciones.sh"
--'  1  0  /opt/tp/scripts/funciones.sh
-|4,39,1,0,1604545983,"/opt/tp/scripts/funciones.sh"
--'  79  80  /opt/tp/scripts/backup_full.sh
-|4,39,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  79  80  /opt/tp/scripts/backup_full.sh
-|4,39,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  79  80  /opt/tp/scripts/backup_full.sh
-|4,39,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  79  80  /opt/tp/scripts/backup_full.sh
-|4,39,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  74  80  /opt/tp/scripts/backup_full.sh
-|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  1  0  /opt/tp/scripts/backup_full.sh
-|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
--'  61  0  /opt/tp/scripts/backup_full.sh
-|4,39,61,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  61  0  /opt/tp/scripts/backup_full.sh
-|4,39,61,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  61  0  /opt/tp/scripts/backup_full.sh
-|4,39,61,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  61  0  /opt/tp/scripts/backup_full.sh
-|4,39,61,0,1604544506,"/opt/tp/scripts/backup_full.sh"
--'  56  0  /opt/tp/scripts/backup_full.sh
-|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> /etc/fstab
+	*	1604618756	0
+	"	1	0
+	^	16	75
+	.	16	74
+	+	14	0
+	+	13	41
+	+	14	40
+	+	13	42
+	+	14	0
+	+	13	41
+	+	14	0
+	+	13	41
+	+	14	65
+	+	13	0
+	+	14	62
+	+	15	41
+	+	14	59
+	+	15	40
+	+	17	0
+	+	14	55
+	+	15	55
+	+	14	61
+	+	15	60
+	+	16	63
+	+	9	119
+	+	11	101
+	+	13	83
+	+	14	73
+	+	15	73
+	+	16	74
 
 > /opt/tp/scripts/monitor.sh
 	*	1604546744	0
@@ -942,32 +974,6 @@ $
 > /tmp/crontab.kgsqM2/crontab
 	*	1603851731	0
 	"	24	29
-
-> /etc/fstab
-	*	1603669708	0
-	"	16	63
-	^	16	64
-	.	16	63
-	+	14	0
-	+	13	41
-	+	14	40
-	+	13	42
-	+	14	0
-	+	13	41
-	+	14	0
-	+	13	41
-	+	14	65
-	+	13	0
-	+	14	62
-	+	15	41
-	+	14	59
-	+	15	40
-	+	17	0
-	+	14	55
-	+	15	55
-	+	14	61
-	+	15	60
-	+	16	63
 
 > /etc/uids
 	*	1603668683	0

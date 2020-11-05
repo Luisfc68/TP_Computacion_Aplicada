@@ -1,0 +1,17 @@
+da67e24449f488a959d88f863e7a8ecf  usr/lib/python3/dist-packages/GeoIP-1.3.2.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/GeoIP-1.3.2.egg-info/dependency_links.txt
+2f293e150ae6b9ac570b13b12e06c3e5  usr/lib/python3/dist-packages/GeoIP-1.3.2.egg-info/top_level.txt
+685123117e3f365eb6b426f9fbb3d6a6  usr/lib/python3/dist-packages/GeoIP.cpython-36m-x86_64-linux-gnu.so
+1106e5ba836d7cc0f0a9ae2b2ba6f811  usr/lib/python3/dist-packages/GeoIP.cpython-37m-x86_64-linux-gnu.so
+4c13db166ba81fce84b22e005adabe8c  usr/share/doc/python3-geoip/changelog.Debian.gz
+fa838c0d6fde46e16dccb9ac6d13478c  usr/share/doc/python3-geoip/copyright
+81d50310efa44b2575aae32d6608f1ec  usr/share/doc/python3-geoip/examples/city.py
+053d18cd9799e03daf693a095237ed50  usr/share/doc/python3-geoip/examples/city_charset.py
+14a34f1e6637dc863ec28b86e860dd95  usr/share/doc/python3-geoip/examples/country.py
+b08b51817463fd85a6aaae3a9d6c9dcc  usr/share/doc/python3-geoip/examples/domain.py
+155166d116ddc74aae1c9ba454676a49  usr/share/doc/python3-geoip/examples/netspeed.py
+f33b9d7b41c0f1979deda3b1a866d1de  usr/share/doc/python3-geoip/examples/netspeedcell.py
+e09723cdeeb376c883f7987974dc33f3  usr/share/doc/python3-geoip/examples/org.py
+ea0b13830d08a1099e8aea52bd665fc0  usr/share/doc/python3-geoip/examples/region.py
+9b9b44d8fedbe88047ae807516ab7a33  usr/share/doc/python3-geoip/examples/t.py
+a86319cc3976d4719ba71e7487ca1a54  usr/share/doc/python3-geoip/examples/v6.py

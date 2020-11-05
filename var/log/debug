@@ -1,0 +1,864 @@
+Nov  1 00:48:40 debian kernel: [    0.002106] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  1 00:48:40 debian kernel: [    0.002108] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  1 00:48:40 debian kernel: [    0.033883] MTRR default type: write-back
+Nov  1 00:48:40 debian kernel: [    0.033884] MTRR fixed ranges enabled:
+Nov  1 00:48:40 debian kernel: [    0.033885]   00000-9FFFF write-back
+Nov  1 00:48:40 debian kernel: [    0.033886]   A0000-BFFFF uncachable
+Nov  1 00:48:40 debian kernel: [    0.033887]   C0000-FFFFF write-protect
+Nov  1 00:48:40 debian kernel: [    0.033888] MTRR variable ranges enabled:
+Nov  1 00:48:40 debian kernel: [    0.033889]   0 base 0080000000 mask FF80000000 uncachable
+Nov  1 00:48:40 debian kernel: [    0.033890]   1 disabled
+Nov  1 00:48:40 debian kernel: [    0.033891]   2 disabled
+Nov  1 00:48:40 debian kernel: [    0.033891]   3 disabled
+Nov  1 00:48:40 debian kernel: [    0.033892]   4 disabled
+Nov  1 00:48:40 debian kernel: [    0.033892]   5 disabled
+Nov  1 00:48:40 debian kernel: [    0.033892]   6 disabled
+Nov  1 00:48:40 debian kernel: [    0.033893]   7 disabled
+Nov  1 00:48:40 debian kernel: [    0.036166] BRK [0x48801000, 0x48801fff] PGTABLE
+Nov  1 00:48:40 debian kernel: [    0.036169] BRK [0x48802000, 0x48802fff] PGTABLE
+Nov  1 00:48:40 debian kernel: [    0.036170] BRK [0x48803000, 0x48803fff] PGTABLE
+Nov  1 00:48:40 debian kernel: [    0.036192] BRK [0x48804000, 0x48804fff] PGTABLE
+Nov  1 00:48:40 debian kernel: [    0.036194] BRK [0x48805000, 0x48805fff] PGTABLE
+Nov  1 00:48:40 debian kernel: [    0.036265] BRK [0x48806000, 0x48806fff] PGTABLE
+Nov  1 00:48:40 debian kernel: [    0.036383] ACPI: Local APIC address 0xfee00000
+Nov  1 00:48:40 debian kernel: [    0.037325] On node 0 totalpages: 524153
+Nov  1 00:48:40 debian kernel: [    0.037326]   DMA zone: 64 pages used for memmap
+Nov  1 00:48:40 debian kernel: [    0.037327]   DMA zone: 21 pages reserved
+Nov  1 00:48:40 debian kernel: [    0.037328]   DMA zone: 3998 pages, LIFO batch:0
+Nov  1 00:48:40 debian kernel: [    0.037429]   DMA32 zone: 8128 pages used for memmap
+Nov  1 00:48:40 debian kernel: [    0.037430]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  1 00:48:40 debian kernel: [    0.051272] ACPI: Local APIC address 0xfee00000
+Nov  1 00:48:40 debian kernel: [    0.051329] ACPI: IRQ0 used by override.
+Nov  1 00:48:40 debian kernel: [    0.051329] ACPI: IRQ5 used by override.
+Nov  1 00:48:40 debian kernel: [    0.051330] ACPI: IRQ9 used by override.
+Nov  1 00:48:40 debian kernel: [    0.051330] ACPI: IRQ10 used by override.
+Nov  1 00:48:40 debian kernel: [    0.051331] ACPI: IRQ11 used by override.
+Nov  1 00:48:40 debian kernel: [    0.163323] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  1 00:48:40 debian kernel: [    0.163324] pcpu-alloc: [0] 0 1 
+Nov  1 00:48:40 debian kernel: [    0.198158] Calgary: detecting Calgary via BIOS EBDA area
+Nov  1 00:48:40 debian kernel: [    0.198160] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  1 00:48:40 debian kernel: [    0.236360] hpet clockevent registered
+Nov  1 00:48:40 debian kernel: [    0.362548] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  1 00:48:40 debian kernel: [    0.362841] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  1 00:48:40 debian kernel: [    0.363213] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  1 00:48:40 debian kernel: [    0.365438] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  1 00:48:40 debian kernel: [    0.366405] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  1 00:48:40 debian kernel: [    0.368672] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  1 00:48:40 debian kernel: [    0.369787] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  1 00:48:40 debian kernel: [    0.370418] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  1 00:48:40 debian kernel: [    0.371854] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  1 00:48:40 debian kernel: [    0.373989] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  1 00:48:40 debian kernel: [    0.379894] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  1 00:48:40 debian kernel: [    0.380135] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  1 00:48:40 debian kernel: [    0.381473] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  1 00:48:40 debian kernel: [    0.382609] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  1 00:48:40 debian kernel: [    0.386641] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  1 00:48:40 debian kernel: [    0.388406] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  1 00:48:40 debian kernel: [    0.390428] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  1 00:48:40 debian kernel: [    0.391173] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  1 00:48:40 debian kernel: [    0.395118] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  1 00:48:40 debian kernel: [    0.395362] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  1 00:48:40 debian kernel: [    0.396744] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  1 00:48:40 debian kernel: [    0.398018] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  1 00:48:40 debian kernel: [    0.399370] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  1 00:48:40 debian kernel: [    0.403336] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  1 00:48:40 debian kernel: [    0.403346] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  1 00:48:40 debian kernel: [    0.403365] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 00:48:40 debian kernel: [    0.405195] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  1 00:48:40 debian kernel: [    0.405205] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  1 00:48:40 debian kernel: [    0.405223] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 00:48:40 debian kernel: [    0.407431] PCI: pci_cache_line_size set to 64 bytes
+Nov  1 00:48:40 debian kernel: [    0.407431] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  1 00:48:40 debian kernel: [    0.407431] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  1 00:48:40 debian kernel: [    0.426985] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  1 00:48:40 debian kernel: [    0.427019] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  1 00:48:40 debian kernel: [    0.427044] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  1 00:48:40 debian kernel: [    0.427052] pnp 00:03: [dma 2]
+Nov  1 00:48:40 debian kernel: [    0.427066] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  1 00:48:40 debian kernel: [    0.440600] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  1 00:48:40 debian kernel: [    0.440602] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  1 00:48:40 debian kernel: [    0.440603] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  1 00:48:40 debian kernel: [    0.440604] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  1 00:48:40 debian kernel: [    0.440605] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  1 00:48:40 debian kernel: [    0.440607] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  1 00:48:40 debian kernel: [    0.440608] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  1 00:48:40 debian kernel: [    0.440609] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 00:48:40 debian kernel: [    0.440610] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  1 00:48:40 debian kernel: [    0.440611] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  1 00:48:40 debian kernel: [    0.440612] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 00:48:40 debian kernel: [    0.480603] PCI: CLS 0 bytes, default 64
+Nov  1 00:48:40 debian kernel: [    1.360293] libata version 3.00 loaded.
+Nov  1 00:48:40 debian kernel: [    1.361858] ata_piix 0000:00:01.1: version 2.13
+Nov  1 00:48:40 debian kernel: [    1.528297] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  1 00:48:40 debian kernel: [    1.528347] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  1 00:48:40 debian kernel: [    1.533673] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  1 00:48:40 debian kernel: [    1.533729] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  1 00:48:40 debian kernel: [    2.649092] PM: Image not found (code -22)
+Nov  1 20:07:21 debian kernel: [    0.002109] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  1 20:07:21 debian kernel: [    0.002111] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  1 20:07:21 debian kernel: [    0.033586] MTRR default type: write-back
+Nov  1 20:07:21 debian kernel: [    0.033587] MTRR fixed ranges enabled:
+Nov  1 20:07:21 debian kernel: [    0.033589]   00000-9FFFF write-back
+Nov  1 20:07:21 debian kernel: [    0.033589]   A0000-BFFFF uncachable
+Nov  1 20:07:21 debian kernel: [    0.033590]   C0000-FFFFF write-protect
+Nov  1 20:07:21 debian kernel: [    0.033591] MTRR variable ranges enabled:
+Nov  1 20:07:21 debian kernel: [    0.033593]   0 base 0080000000 mask FF80000000 uncachable
+Nov  1 20:07:21 debian kernel: [    0.033593]   1 disabled
+Nov  1 20:07:21 debian kernel: [    0.033594]   2 disabled
+Nov  1 20:07:21 debian kernel: [    0.033595]   3 disabled
+Nov  1 20:07:21 debian kernel: [    0.033595]   4 disabled
+Nov  1 20:07:21 debian kernel: [    0.033595]   5 disabled
+Nov  1 20:07:21 debian kernel: [    0.033596]   6 disabled
+Nov  1 20:07:21 debian kernel: [    0.033596]   7 disabled
+Nov  1 20:07:21 debian kernel: [    0.035897] BRK [0x75e01000, 0x75e01fff] PGTABLE
+Nov  1 20:07:21 debian kernel: [    0.035899] BRK [0x75e02000, 0x75e02fff] PGTABLE
+Nov  1 20:07:21 debian kernel: [    0.035901] BRK [0x75e03000, 0x75e03fff] PGTABLE
+Nov  1 20:07:21 debian kernel: [    0.035925] BRK [0x75e04000, 0x75e04fff] PGTABLE
+Nov  1 20:07:21 debian kernel: [    0.035927] BRK [0x75e05000, 0x75e05fff] PGTABLE
+Nov  1 20:07:21 debian kernel: [    0.036007] BRK [0x75e06000, 0x75e06fff] PGTABLE
+Nov  1 20:07:21 debian kernel: [    0.036127] ACPI: Local APIC address 0xfee00000
+Nov  1 20:07:21 debian kernel: [    0.037163] On node 0 totalpages: 524153
+Nov  1 20:07:21 debian kernel: [    0.037164]   DMA zone: 64 pages used for memmap
+Nov  1 20:07:21 debian kernel: [    0.037165]   DMA zone: 21 pages reserved
+Nov  1 20:07:21 debian kernel: [    0.037166]   DMA zone: 3998 pages, LIFO batch:0
+Nov  1 20:07:21 debian kernel: [    0.037276]   DMA32 zone: 8128 pages used for memmap
+Nov  1 20:07:21 debian kernel: [    0.037276]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  1 20:07:21 debian kernel: [    0.051196] ACPI: Local APIC address 0xfee00000
+Nov  1 20:07:21 debian kernel: [    0.051255] ACPI: IRQ0 used by override.
+Nov  1 20:07:21 debian kernel: [    0.051256] ACPI: IRQ5 used by override.
+Nov  1 20:07:21 debian kernel: [    0.051256] ACPI: IRQ9 used by override.
+Nov  1 20:07:21 debian kernel: [    0.051257] ACPI: IRQ10 used by override.
+Nov  1 20:07:21 debian kernel: [    0.051257] ACPI: IRQ11 used by override.
+Nov  1 20:07:21 debian kernel: [    0.164341] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  1 20:07:21 debian kernel: [    0.164342] pcpu-alloc: [0] 0 1 
+Nov  1 20:07:21 debian kernel: [    0.199045] Calgary: detecting Calgary via BIOS EBDA area
+Nov  1 20:07:21 debian kernel: [    0.199047] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  1 20:07:21 debian kernel: [    0.237365] hpet clockevent registered
+Nov  1 20:07:21 debian kernel: [    0.363199] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  1 20:07:21 debian kernel: [    0.363501] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  1 20:07:21 debian kernel: [    0.363881] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  1 20:07:21 debian kernel: [    0.366931] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  1 20:07:21 debian kernel: [    0.368271] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  1 20:07:21 debian kernel: [    0.371395] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  1 20:07:21 debian kernel: [    0.372795] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  1 20:07:21 debian kernel: [    0.373255] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  1 20:07:21 debian kernel: [    0.374686] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  1 20:07:21 debian kernel: [    0.376979] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  1 20:07:21 debian kernel: [    0.382674] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  1 20:07:21 debian kernel: [    0.382951] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  1 20:07:21 debian kernel: [    0.383812] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  1 20:07:21 debian kernel: [    0.385121] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  1 20:07:21 debian kernel: [    0.391017] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  1 20:07:21 debian kernel: [    0.392239] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  1 20:07:21 debian kernel: [    0.393045] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  1 20:07:21 debian kernel: [    0.393863] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  1 20:07:21 debian kernel: [    0.398326] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  1 20:07:21 debian kernel: [    0.398587] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  1 20:07:21 debian kernel: [    0.400065] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  1 20:07:21 debian kernel: [    0.402635] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  1 20:07:21 debian kernel: [    0.403966] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  1 20:07:21 debian kernel: [    0.406695] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  1 20:07:21 debian kernel: [    0.406706] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  1 20:07:21 debian kernel: [    0.406725] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 20:07:21 debian kernel: [    0.408720] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  1 20:07:21 debian kernel: [    0.408730] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  1 20:07:21 debian kernel: [    0.408749] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 20:07:21 debian kernel: [    0.411247] PCI: pci_cache_line_size set to 64 bytes
+Nov  1 20:07:21 debian kernel: [    0.411247] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  1 20:07:21 debian kernel: [    0.411247] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  1 20:07:21 debian kernel: [    0.428427] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  1 20:07:21 debian kernel: [    0.428468] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  1 20:07:21 debian kernel: [    0.428492] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  1 20:07:21 debian kernel: [    0.428502] pnp 00:03: [dma 2]
+Nov  1 20:07:21 debian kernel: [    0.428515] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  1 20:07:21 debian kernel: [    0.444160] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  1 20:07:21 debian kernel: [    0.444162] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  1 20:07:21 debian kernel: [    0.444163] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  1 20:07:21 debian kernel: [    0.444165] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  1 20:07:21 debian kernel: [    0.444166] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  1 20:07:21 debian kernel: [    0.444168] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  1 20:07:21 debian kernel: [    0.444169] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  1 20:07:21 debian kernel: [    0.444170] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 20:07:21 debian kernel: [    0.444171] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  1 20:07:21 debian kernel: [    0.444172] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  1 20:07:21 debian kernel: [    0.444173] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 20:07:21 debian kernel: [    0.485377] PCI: CLS 0 bytes, default 64
+Nov  1 20:07:21 debian kernel: [    1.377129] libata version 3.00 loaded.
+Nov  1 20:07:21 debian kernel: [    1.378687] ata_piix 0000:00:01.1: version 2.13
+Nov  1 20:07:21 debian kernel: [    1.545057] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  1 20:07:21 debian kernel: [    1.546418] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  1 20:07:21 debian kernel: [    1.546533] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  1 20:07:21 debian kernel: [    1.547397] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  1 20:07:21 debian kernel: [    3.190279] PM: Image not found (code -22)
+Nov  1 22:35:06 debian kernel: [    0.002125] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  1 22:35:06 debian kernel: [    0.002126] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  1 22:35:06 debian kernel: [    0.033654] MTRR default type: write-back
+Nov  1 22:35:06 debian kernel: [    0.033654] MTRR fixed ranges enabled:
+Nov  1 22:35:06 debian kernel: [    0.033656]   00000-9FFFF write-back
+Nov  1 22:35:06 debian kernel: [    0.033657]   A0000-BFFFF uncachable
+Nov  1 22:35:06 debian kernel: [    0.033658]   C0000-FFFFF write-protect
+Nov  1 22:35:06 debian kernel: [    0.033658] MTRR variable ranges enabled:
+Nov  1 22:35:06 debian kernel: [    0.033660]   0 base 0080000000 mask FF80000000 uncachable
+Nov  1 22:35:06 debian kernel: [    0.033661]   1 disabled
+Nov  1 22:35:06 debian kernel: [    0.033661]   2 disabled
+Nov  1 22:35:06 debian kernel: [    0.033662]   3 disabled
+Nov  1 22:35:06 debian kernel: [    0.033662]   4 disabled
+Nov  1 22:35:06 debian kernel: [    0.033663]   5 disabled
+Nov  1 22:35:06 debian kernel: [    0.033663]   6 disabled
+Nov  1 22:35:06 debian kernel: [    0.033663]   7 disabled
+Nov  1 22:35:06 debian kernel: [    0.035987] BRK [0x57801000, 0x57801fff] PGTABLE
+Nov  1 22:35:06 debian kernel: [    0.035989] BRK [0x57802000, 0x57802fff] PGTABLE
+Nov  1 22:35:06 debian kernel: [    0.035990] BRK [0x57803000, 0x57803fff] PGTABLE
+Nov  1 22:35:06 debian kernel: [    0.036013] BRK [0x57804000, 0x57804fff] PGTABLE
+Nov  1 22:35:06 debian kernel: [    0.036015] BRK [0x57805000, 0x57805fff] PGTABLE
+Nov  1 22:35:06 debian kernel: [    0.036089] BRK [0x57806000, 0x57806fff] PGTABLE
+Nov  1 22:35:06 debian kernel: [    0.036204] ACPI: Local APIC address 0xfee00000
+Nov  1 22:35:06 debian kernel: [    0.036482] On node 0 totalpages: 524153
+Nov  1 22:35:06 debian kernel: [    0.036483]   DMA zone: 64 pages used for memmap
+Nov  1 22:35:06 debian kernel: [    0.036484]   DMA zone: 21 pages reserved
+Nov  1 22:35:06 debian kernel: [    0.036485]   DMA zone: 3998 pages, LIFO batch:0
+Nov  1 22:35:06 debian kernel: [    0.036588]   DMA32 zone: 8128 pages used for memmap
+Nov  1 22:35:06 debian kernel: [    0.036589]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  1 22:35:06 debian kernel: [    0.050155] ACPI: Local APIC address 0xfee00000
+Nov  1 22:35:06 debian kernel: [    0.050210] ACPI: IRQ0 used by override.
+Nov  1 22:35:06 debian kernel: [    0.050211] ACPI: IRQ5 used by override.
+Nov  1 22:35:06 debian kernel: [    0.050211] ACPI: IRQ9 used by override.
+Nov  1 22:35:06 debian kernel: [    0.050212] ACPI: IRQ10 used by override.
+Nov  1 22:35:06 debian kernel: [    0.050212] ACPI: IRQ11 used by override.
+Nov  1 22:35:06 debian kernel: [    0.161429] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  1 22:35:06 debian kernel: [    0.161430] pcpu-alloc: [0] 0 1 
+Nov  1 22:35:06 debian kernel: [    0.196362] Calgary: detecting Calgary via BIOS EBDA area
+Nov  1 22:35:06 debian kernel: [    0.196363] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  1 22:35:06 debian kernel: [    0.232953] hpet clockevent registered
+Nov  1 22:35:06 debian kernel: [    0.358069] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  1 22:35:06 debian kernel: [    0.358399] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  1 22:35:06 debian kernel: [    0.358801] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  1 22:35:06 debian kernel: [    0.360956] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  1 22:35:06 debian kernel: [    0.361923] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  1 22:35:06 debian kernel: [    0.364246] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  1 22:35:06 debian kernel: [    0.365589] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  1 22:35:06 debian kernel: [    0.366031] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  1 22:35:06 debian kernel: [    0.367246] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  1 22:35:06 debian kernel: [    0.370600] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  1 22:35:06 debian kernel: [    0.374600] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  1 22:35:06 debian kernel: [    0.374833] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  1 22:35:06 debian kernel: [    0.376160] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  1 22:35:06 debian kernel: [    0.377370] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  1 22:35:06 debian kernel: [    0.382600] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  1 22:35:06 debian kernel: [    0.384334] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  1 22:35:06 debian kernel: [    0.385185] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  1 22:35:06 debian kernel: [    0.385970] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  1 22:35:06 debian kernel: [    0.390139] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  1 22:35:06 debian kernel: [    0.390634] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  1 22:35:06 debian kernel: [    0.392059] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  1 22:35:06 debian kernel: [    0.394529] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  1 22:35:06 debian kernel: [    0.395715] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  1 22:35:06 debian kernel: [    0.398667] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  1 22:35:06 debian kernel: [    0.398677] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  1 22:35:06 debian kernel: [    0.398696] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 22:35:06 debian kernel: [    0.400568] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  1 22:35:06 debian kernel: [    0.400578] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  1 22:35:06 debian kernel: [    0.400597] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 22:35:06 debian kernel: [    0.402869] PCI: pci_cache_line_size set to 64 bytes
+Nov  1 22:35:06 debian kernel: [    0.402869] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  1 22:35:06 debian kernel: [    0.402869] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  1 22:35:06 debian kernel: [    0.418380] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  1 22:35:06 debian kernel: [    0.418415] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  1 22:35:06 debian kernel: [    0.418439] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  1 22:35:06 debian kernel: [    0.418448] pnp 00:03: [dma 2]
+Nov  1 22:35:06 debian kernel: [    0.418461] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  1 22:35:06 debian kernel: [    0.431917] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  1 22:35:06 debian kernel: [    0.431919] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  1 22:35:06 debian kernel: [    0.431921] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  1 22:35:06 debian kernel: [    0.431922] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  1 22:35:06 debian kernel: [    0.431923] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  1 22:35:06 debian kernel: [    0.431924] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  1 22:35:06 debian kernel: [    0.431926] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  1 22:35:06 debian kernel: [    0.431927] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 22:35:06 debian kernel: [    0.431928] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  1 22:35:06 debian kernel: [    0.431929] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  1 22:35:06 debian kernel: [    0.431930] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 22:35:06 debian kernel: [    0.471463] PCI: CLS 0 bytes, default 64
+Nov  1 22:35:06 debian kernel: [    1.330204] libata version 3.00 loaded.
+Nov  1 22:35:06 debian kernel: [    1.331996] ata_piix 0000:00:01.1: version 2.13
+Nov  1 22:35:06 debian kernel: [    1.497653] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  1 22:35:06 debian kernel: [    1.497667] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  1 22:35:06 debian kernel: [    1.497781] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  1 22:35:06 debian kernel: [    1.498028] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  1 22:35:06 debian kernel: [    2.885379] PM: Image not found (code -22)
+Nov  1 22:38:13 debian kernel: [    0.002142] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  1 22:38:13 debian kernel: [    0.002143] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  1 22:38:13 debian kernel: [    0.033786] MTRR default type: write-back
+Nov  1 22:38:13 debian kernel: [    0.033787] MTRR fixed ranges enabled:
+Nov  1 22:38:13 debian kernel: [    0.033788]   00000-9FFFF write-back
+Nov  1 22:38:13 debian kernel: [    0.033789]   A0000-BFFFF uncachable
+Nov  1 22:38:13 debian kernel: [    0.033790]   C0000-FFFFF write-protect
+Nov  1 22:38:13 debian kernel: [    0.033791] MTRR variable ranges enabled:
+Nov  1 22:38:13 debian kernel: [    0.033792]   0 base 0080000000 mask FF80000000 uncachable
+Nov  1 22:38:13 debian kernel: [    0.033793]   1 disabled
+Nov  1 22:38:13 debian kernel: [    0.033794]   2 disabled
+Nov  1 22:38:13 debian kernel: [    0.033794]   3 disabled
+Nov  1 22:38:13 debian kernel: [    0.033795]   4 disabled
+Nov  1 22:38:13 debian kernel: [    0.033795]   5 disabled
+Nov  1 22:38:13 debian kernel: [    0.033795]   6 disabled
+Nov  1 22:38:13 debian kernel: [    0.033796]   7 disabled
+Nov  1 22:38:13 debian kernel: [    0.036093] BRK [0x70601000, 0x70601fff] PGTABLE
+Nov  1 22:38:13 debian kernel: [    0.036095] BRK [0x70602000, 0x70602fff] PGTABLE
+Nov  1 22:38:13 debian kernel: [    0.036096] BRK [0x70603000, 0x70603fff] PGTABLE
+Nov  1 22:38:13 debian kernel: [    0.036124] BRK [0x70604000, 0x70604fff] PGTABLE
+Nov  1 22:38:13 debian kernel: [    0.036127] BRK [0x70605000, 0x70605fff] PGTABLE
+Nov  1 22:38:13 debian kernel: [    0.036231] BRK [0x70606000, 0x70606fff] PGTABLE
+Nov  1 22:38:13 debian kernel: [    0.036354] ACPI: Local APIC address 0xfee00000
+Nov  1 22:38:13 debian kernel: [    0.036633] On node 0 totalpages: 524153
+Nov  1 22:38:13 debian kernel: [    0.036634]   DMA zone: 64 pages used for memmap
+Nov  1 22:38:13 debian kernel: [    0.036634]   DMA zone: 21 pages reserved
+Nov  1 22:38:13 debian kernel: [    0.036635]   DMA zone: 3998 pages, LIFO batch:0
+Nov  1 22:38:13 debian kernel: [    0.036749]   DMA32 zone: 8128 pages used for memmap
+Nov  1 22:38:13 debian kernel: [    0.036750]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  1 22:38:13 debian kernel: [    0.050327] ACPI: Local APIC address 0xfee00000
+Nov  1 22:38:13 debian kernel: [    0.050384] ACPI: IRQ0 used by override.
+Nov  1 22:38:13 debian kernel: [    0.050385] ACPI: IRQ5 used by override.
+Nov  1 22:38:13 debian kernel: [    0.050386] ACPI: IRQ9 used by override.
+Nov  1 22:38:13 debian kernel: [    0.050386] ACPI: IRQ10 used by override.
+Nov  1 22:38:13 debian kernel: [    0.050386] ACPI: IRQ11 used by override.
+Nov  1 22:38:13 debian kernel: [    0.161750] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  1 22:38:13 debian kernel: [    0.161751] pcpu-alloc: [0] 0 1 
+Nov  1 22:38:13 debian kernel: [    0.196542] Calgary: detecting Calgary via BIOS EBDA area
+Nov  1 22:38:13 debian kernel: [    0.196543] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  1 22:38:13 debian kernel: [    0.233347] hpet clockevent registered
+Nov  1 22:38:13 debian kernel: [    0.358543] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  1 22:38:13 debian kernel: [    0.358834] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  1 22:38:13 debian kernel: [    0.359237] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  1 22:38:13 debian kernel: [    0.361395] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  1 22:38:13 debian kernel: [    0.362380] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  1 22:38:13 debian kernel: [    0.364417] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  1 22:38:13 debian kernel: [    0.365377] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  1 22:38:13 debian kernel: [    0.365820] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  1 22:38:13 debian kernel: [    0.366963] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  1 22:38:13 debian kernel: [    0.368835] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  1 22:38:13 debian kernel: [    0.373282] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  1 22:38:13 debian kernel: [    0.373512] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  1 22:38:13 debian kernel: [    0.375005] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  1 22:38:13 debian kernel: [    0.376195] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  1 22:38:13 debian kernel: [    0.379620] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  1 22:38:13 debian kernel: [    0.383084] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  1 22:38:13 debian kernel: [    0.383903] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  1 22:38:13 debian kernel: [    0.384662] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  1 22:38:13 debian kernel: [    0.388134] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  1 22:38:13 debian kernel: [    0.388368] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  1 22:38:13 debian kernel: [    0.389722] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  1 22:38:13 debian kernel: [    0.391225] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  1 22:38:13 debian kernel: [    0.392775] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  1 22:38:13 debian kernel: [    0.396639] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  1 22:38:13 debian kernel: [    0.396649] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  1 22:38:13 debian kernel: [    0.396668] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 22:38:13 debian kernel: [    0.398513] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  1 22:38:13 debian kernel: [    0.398523] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  1 22:38:13 debian kernel: [    0.398542] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 22:38:13 debian kernel: [    0.400642] PCI: pci_cache_line_size set to 64 bytes
+Nov  1 22:38:13 debian kernel: [    0.400642] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  1 22:38:13 debian kernel: [    0.400642] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  1 22:38:13 debian kernel: [    0.414874] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  1 22:38:13 debian kernel: [    0.414909] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  1 22:38:13 debian kernel: [    0.414933] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  1 22:38:13 debian kernel: [    0.414942] pnp 00:03: [dma 2]
+Nov  1 22:38:13 debian kernel: [    0.414955] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  1 22:38:13 debian kernel: [    0.428470] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  1 22:38:13 debian kernel: [    0.428471] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  1 22:38:13 debian kernel: [    0.428473] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  1 22:38:13 debian kernel: [    0.428474] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  1 22:38:13 debian kernel: [    0.428475] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  1 22:38:13 debian kernel: [    0.428477] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  1 22:38:13 debian kernel: [    0.428478] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  1 22:38:13 debian kernel: [    0.428479] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 22:38:13 debian kernel: [    0.428480] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  1 22:38:13 debian kernel: [    0.428481] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  1 22:38:13 debian kernel: [    0.428482] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 22:38:13 debian kernel: [    0.468002] PCI: CLS 0 bytes, default 64
+Nov  1 22:38:13 debian kernel: [    1.301158] libata version 3.00 loaded.
+Nov  1 22:38:13 debian kernel: [    1.302848] ata_piix 0000:00:01.1: version 2.13
+Nov  1 22:38:13 debian kernel: [    1.470504] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  1 22:38:13 debian kernel: [    1.470753] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  1 22:38:13 debian kernel: [    1.470767] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  1 22:38:13 debian kernel: [    1.471354] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  1 22:38:13 debian kernel: [    2.546226] PM: Image not found (code -22)
+Nov  1 22:40:19 debian kernel: [    0.002125] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  1 22:40:19 debian kernel: [    0.002126] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  1 22:40:19 debian kernel: [    0.033688] MTRR default type: write-back
+Nov  1 22:40:19 debian kernel: [    0.033689] MTRR fixed ranges enabled:
+Nov  1 22:40:19 debian kernel: [    0.033690]   00000-9FFFF write-back
+Nov  1 22:40:19 debian kernel: [    0.033691]   A0000-BFFFF uncachable
+Nov  1 22:40:19 debian kernel: [    0.033692]   C0000-FFFFF write-protect
+Nov  1 22:40:19 debian kernel: [    0.033693] MTRR variable ranges enabled:
+Nov  1 22:40:19 debian kernel: [    0.033694]   0 base 0080000000 mask FF80000000 uncachable
+Nov  1 22:40:19 debian kernel: [    0.033695]   1 disabled
+Nov  1 22:40:19 debian kernel: [    0.033696]   2 disabled
+Nov  1 22:40:19 debian kernel: [    0.033696]   3 disabled
+Nov  1 22:40:19 debian kernel: [    0.033697]   4 disabled
+Nov  1 22:40:19 debian kernel: [    0.033697]   5 disabled
+Nov  1 22:40:19 debian kernel: [    0.033697]   6 disabled
+Nov  1 22:40:19 debian kernel: [    0.033698]   7 disabled
+Nov  1 22:40:19 debian kernel: [    0.035986] BRK [0x2d201000, 0x2d201fff] PGTABLE
+Nov  1 22:40:19 debian kernel: [    0.035988] BRK [0x2d202000, 0x2d202fff] PGTABLE
+Nov  1 22:40:19 debian kernel: [    0.035989] BRK [0x2d203000, 0x2d203fff] PGTABLE
+Nov  1 22:40:19 debian kernel: [    0.036011] BRK [0x2d204000, 0x2d204fff] PGTABLE
+Nov  1 22:40:19 debian kernel: [    0.036013] BRK [0x2d205000, 0x2d205fff] PGTABLE
+Nov  1 22:40:19 debian kernel: [    0.036084] BRK [0x2d206000, 0x2d206fff] PGTABLE
+Nov  1 22:40:19 debian kernel: [    0.036244] ACPI: Local APIC address 0xfee00000
+Nov  1 22:40:19 debian kernel: [    0.036522] On node 0 totalpages: 524153
+Nov  1 22:40:19 debian kernel: [    0.036523]   DMA zone: 64 pages used for memmap
+Nov  1 22:40:19 debian kernel: [    0.036523]   DMA zone: 21 pages reserved
+Nov  1 22:40:19 debian kernel: [    0.036524]   DMA zone: 3998 pages, LIFO batch:0
+Nov  1 22:40:19 debian kernel: [    0.036628]   DMA32 zone: 8128 pages used for memmap
+Nov  1 22:40:19 debian kernel: [    0.036629]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  1 22:40:19 debian kernel: [    0.050265] ACPI: Local APIC address 0xfee00000
+Nov  1 22:40:19 debian kernel: [    0.050322] ACPI: IRQ0 used by override.
+Nov  1 22:40:19 debian kernel: [    0.050323] ACPI: IRQ5 used by override.
+Nov  1 22:40:19 debian kernel: [    0.050323] ACPI: IRQ9 used by override.
+Nov  1 22:40:19 debian kernel: [    0.050324] ACPI: IRQ10 used by override.
+Nov  1 22:40:19 debian kernel: [    0.050324] ACPI: IRQ11 used by override.
+Nov  1 22:40:19 debian kernel: [    0.162375] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  1 22:40:19 debian kernel: [    0.162376] pcpu-alloc: [0] 0 1 
+Nov  1 22:40:19 debian kernel: [    0.197227] Calgary: detecting Calgary via BIOS EBDA area
+Nov  1 22:40:19 debian kernel: [    0.197228] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  1 22:40:19 debian kernel: [    0.233656] hpet clockevent registered
+Nov  1 22:40:19 debian kernel: [    0.357693] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  1 22:40:19 debian kernel: [    0.357987] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  1 22:40:19 debian kernel: [    0.358359] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  1 22:40:19 debian kernel: [    0.360988] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  1 22:40:19 debian kernel: [    0.362254] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  1 22:40:19 debian kernel: [    0.365307] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  1 22:40:19 debian kernel: [    0.366585] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  1 22:40:19 debian kernel: [    0.367027] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  1 22:40:19 debian kernel: [    0.367962] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  1 22:40:19 debian kernel: [    0.371307] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  1 22:40:19 debian kernel: [    0.375308] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  1 22:40:19 debian kernel: [    0.375534] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  1 22:40:19 debian kernel: [    0.376985] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  1 22:40:19 debian kernel: [    0.378443] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  1 22:40:19 debian kernel: [    0.383936] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  1 22:40:19 debian kernel: [    0.385688] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  1 22:40:19 debian kernel: [    0.386561] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  1 22:40:19 debian kernel: [    0.387308] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  1 22:40:19 debian kernel: [    0.391898] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  1 22:40:19 debian kernel: [    0.393268] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  1 22:40:19 debian kernel: [    0.394727] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  1 22:40:19 debian kernel: [    0.395631] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  1 22:40:19 debian kernel: [    0.397053] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  1 22:40:19 debian kernel: [    0.400167] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  1 22:40:19 debian kernel: [    0.400177] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  1 22:40:19 debian kernel: [    0.400196] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 22:40:19 debian kernel: [    0.402103] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  1 22:40:19 debian kernel: [    0.402113] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  1 22:40:19 debian kernel: [    0.402132] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 22:40:19 debian kernel: [    0.404914] PCI: pci_cache_line_size set to 64 bytes
+Nov  1 22:40:19 debian kernel: [    0.404914] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  1 22:40:19 debian kernel: [    0.404914] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  1 22:40:19 debian kernel: [    0.418980] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  1 22:40:19 debian kernel: [    0.419014] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  1 22:40:19 debian kernel: [    0.419038] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  1 22:40:19 debian kernel: [    0.419047] pnp 00:03: [dma 2]
+Nov  1 22:40:19 debian kernel: [    0.419060] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  1 22:40:19 debian kernel: [    0.430475] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  1 22:40:19 debian kernel: [    0.430477] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  1 22:40:19 debian kernel: [    0.430478] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  1 22:40:19 debian kernel: [    0.430479] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  1 22:40:19 debian kernel: [    0.430480] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  1 22:40:19 debian kernel: [    0.430482] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  1 22:40:19 debian kernel: [    0.430483] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  1 22:40:19 debian kernel: [    0.430484] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  1 22:40:19 debian kernel: [    0.430485] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  1 22:40:19 debian kernel: [    0.430486] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  1 22:40:19 debian kernel: [    0.430487] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  1 22:40:19 debian kernel: [    0.469945] PCI: CLS 0 bytes, default 64
+Nov  1 22:40:19 debian kernel: [    1.318546] libata version 3.00 loaded.
+Nov  1 22:40:19 debian kernel: [    1.322336] ata_piix 0000:00:01.1: version 2.13
+Nov  1 22:40:19 debian kernel: [    1.494183] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  1 22:40:19 debian kernel: [    1.494809] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  1 22:40:19 debian kernel: [    1.495059] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  1 22:40:19 debian kernel: [    1.495849] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  1 22:40:19 debian kernel: [    2.778213] PM: Image not found (code -22)
+Nov  2 00:19:22 debian kernel: [    0.002127] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  2 00:19:22 debian kernel: [    0.002129] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  2 00:19:22 debian kernel: [    0.034082] MTRR default type: write-back
+Nov  2 00:19:22 debian kernel: [    0.034083] MTRR fixed ranges enabled:
+Nov  2 00:19:22 debian kernel: [    0.034084]   00000-9FFFF write-back
+Nov  2 00:19:22 debian kernel: [    0.034085]   A0000-BFFFF uncachable
+Nov  2 00:19:22 debian kernel: [    0.034086]   C0000-FFFFF write-protect
+Nov  2 00:19:22 debian kernel: [    0.034087] MTRR variable ranges enabled:
+Nov  2 00:19:22 debian kernel: [    0.034088]   0 base 0080000000 mask FF80000000 uncachable
+Nov  2 00:19:22 debian kernel: [    0.034089]   1 disabled
+Nov  2 00:19:22 debian kernel: [    0.034089]   2 disabled
+Nov  2 00:19:22 debian kernel: [    0.034090]   3 disabled
+Nov  2 00:19:22 debian kernel: [    0.034090]   4 disabled
+Nov  2 00:19:22 debian kernel: [    0.034091]   5 disabled
+Nov  2 00:19:22 debian kernel: [    0.034091]   6 disabled
+Nov  2 00:19:22 debian kernel: [    0.034092]   7 disabled
+Nov  2 00:19:22 debian kernel: [    0.036400] BRK [0x56201000, 0x56201fff] PGTABLE
+Nov  2 00:19:22 debian kernel: [    0.036403] BRK [0x56202000, 0x56202fff] PGTABLE
+Nov  2 00:19:22 debian kernel: [    0.036404] BRK [0x56203000, 0x56203fff] PGTABLE
+Nov  2 00:19:22 debian kernel: [    0.036439] BRK [0x56204000, 0x56204fff] PGTABLE
+Nov  2 00:19:22 debian kernel: [    0.036441] BRK [0x56205000, 0x56205fff] PGTABLE
+Nov  2 00:19:22 debian kernel: [    0.036573] BRK [0x56206000, 0x56206fff] PGTABLE
+Nov  2 00:19:22 debian kernel: [    0.036704] ACPI: Local APIC address 0xfee00000
+Nov  2 00:19:22 debian kernel: [    0.037768] On node 0 totalpages: 524153
+Nov  2 00:19:22 debian kernel: [    0.037769]   DMA zone: 64 pages used for memmap
+Nov  2 00:19:22 debian kernel: [    0.037770]   DMA zone: 21 pages reserved
+Nov  2 00:19:22 debian kernel: [    0.037771]   DMA zone: 3998 pages, LIFO batch:0
+Nov  2 00:19:22 debian kernel: [    0.037872]   DMA32 zone: 8128 pages used for memmap
+Nov  2 00:19:22 debian kernel: [    0.037873]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  2 00:19:22 debian kernel: [    0.051727] ACPI: Local APIC address 0xfee00000
+Nov  2 00:19:22 debian kernel: [    0.051782] ACPI: IRQ0 used by override.
+Nov  2 00:19:22 debian kernel: [    0.051783] ACPI: IRQ5 used by override.
+Nov  2 00:19:22 debian kernel: [    0.051784] ACPI: IRQ9 used by override.
+Nov  2 00:19:22 debian kernel: [    0.051784] ACPI: IRQ10 used by override.
+Nov  2 00:19:22 debian kernel: [    0.051785] ACPI: IRQ11 used by override.
+Nov  2 00:19:22 debian kernel: [    0.164800] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  2 00:19:22 debian kernel: [    0.164801] pcpu-alloc: [0] 0 1 
+Nov  2 00:19:22 debian kernel: [    0.203581] Calgary: detecting Calgary via BIOS EBDA area
+Nov  2 00:19:22 debian kernel: [    0.203582] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  2 00:19:22 debian kernel: [    0.241905] hpet clockevent registered
+Nov  2 00:19:22 debian kernel: [    0.368153] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  2 00:19:22 debian kernel: [    0.368452] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  2 00:19:22 debian kernel: [    0.368827] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  2 00:19:22 debian kernel: [    0.371039] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  2 00:19:22 debian kernel: [    0.372003] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  2 00:19:22 debian kernel: [    0.374361] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  2 00:19:22 debian kernel: [    0.375723] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  2 00:19:22 debian kernel: [    0.376164] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  2 00:19:22 debian kernel: [    0.377618] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  2 00:19:22 debian kernel: [    0.380219] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  2 00:19:22 debian kernel: [    0.385048] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  2 00:19:22 debian kernel: [    0.385285] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  2 00:19:22 debian kernel: [    0.386630] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  2 00:19:22 debian kernel: [    0.388261] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  2 00:19:22 debian kernel: [    0.392257] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  2 00:19:22 debian kernel: [    0.395700] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  2 00:19:22 debian kernel: [    0.396545] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  2 00:19:22 debian kernel: [    0.397319] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  2 00:19:22 debian kernel: [    0.401166] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  2 00:19:22 debian kernel: [    0.401407] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  2 00:19:22 debian kernel: [    0.402800] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  2 00:19:22 debian kernel: [    0.403896] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  2 00:19:22 debian kernel: [    0.405422] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  2 00:19:22 debian kernel: [    0.409470] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  2 00:19:22 debian kernel: [    0.409480] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  2 00:19:22 debian kernel: [    0.409499] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  2 00:19:22 debian kernel: [    0.411348] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  2 00:19:22 debian kernel: [    0.411358] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  2 00:19:22 debian kernel: [    0.411377] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  2 00:19:22 debian kernel: [    0.413464] PCI: pci_cache_line_size set to 64 bytes
+Nov  2 00:19:22 debian kernel: [    0.413464] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  2 00:19:22 debian kernel: [    0.413464] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  2 00:19:22 debian kernel: [    0.428854] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  2 00:19:22 debian kernel: [    0.428887] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  2 00:19:22 debian kernel: [    0.428911] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  2 00:19:22 debian kernel: [    0.428920] pnp 00:03: [dma 2]
+Nov  2 00:19:22 debian kernel: [    0.428934] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  2 00:19:22 debian kernel: [    0.442512] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  2 00:19:22 debian kernel: [    0.442514] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  2 00:19:22 debian kernel: [    0.442515] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  2 00:19:22 debian kernel: [    0.442517] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  2 00:19:22 debian kernel: [    0.442518] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  2 00:19:22 debian kernel: [    0.442519] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  2 00:19:22 debian kernel: [    0.442520] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  2 00:19:22 debian kernel: [    0.442521] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  2 00:19:22 debian kernel: [    0.442522] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  2 00:19:22 debian kernel: [    0.442523] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  2 00:19:22 debian kernel: [    0.442524] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  2 00:19:22 debian kernel: [    0.482523] PCI: CLS 0 bytes, default 64
+Nov  2 00:19:22 debian kernel: [    1.341155] libata version 3.00 loaded.
+Nov  2 00:19:22 debian kernel: [    1.342680] ata_piix 0000:00:01.1: version 2.13
+Nov  2 00:19:22 debian kernel: [    1.513967] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  2 00:19:22 debian kernel: [    1.514025] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  2 00:19:22 debian kernel: [    1.514043] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  2 00:19:22 debian kernel: [    1.514253] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  2 00:19:22 debian kernel: [    2.610455] PM: Image not found (code -22)
+Nov  2 02:18:44 debian kernel: [    0.002108] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  2 02:18:44 debian kernel: [    0.002110] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  2 02:18:44 debian kernel: [    0.034135] MTRR default type: write-back
+Nov  2 02:18:44 debian kernel: [    0.034136] MTRR fixed ranges enabled:
+Nov  2 02:18:44 debian kernel: [    0.034138]   00000-9FFFF write-back
+Nov  2 02:18:44 debian kernel: [    0.034139]   A0000-BFFFF uncachable
+Nov  2 02:18:44 debian kernel: [    0.034139]   C0000-FFFFF write-protect
+Nov  2 02:18:44 debian kernel: [    0.034140] MTRR variable ranges enabled:
+Nov  2 02:18:44 debian kernel: [    0.034142]   0 base 0080000000 mask FF80000000 uncachable
+Nov  2 02:18:44 debian kernel: [    0.034142]   1 disabled
+Nov  2 02:18:44 debian kernel: [    0.034143]   2 disabled
+Nov  2 02:18:44 debian kernel: [    0.034144]   3 disabled
+Nov  2 02:18:44 debian kernel: [    0.034144]   4 disabled
+Nov  2 02:18:44 debian kernel: [    0.034144]   5 disabled
+Nov  2 02:18:44 debian kernel: [    0.034145]   6 disabled
+Nov  2 02:18:44 debian kernel: [    0.034145]   7 disabled
+Nov  2 02:18:44 debian kernel: [    0.036499] BRK [0x64c01000, 0x64c01fff] PGTABLE
+Nov  2 02:18:44 debian kernel: [    0.036502] BRK [0x64c02000, 0x64c02fff] PGTABLE
+Nov  2 02:18:44 debian kernel: [    0.036503] BRK [0x64c03000, 0x64c03fff] PGTABLE
+Nov  2 02:18:44 debian kernel: [    0.036533] BRK [0x64c04000, 0x64c04fff] PGTABLE
+Nov  2 02:18:44 debian kernel: [    0.036535] BRK [0x64c05000, 0x64c05fff] PGTABLE
+Nov  2 02:18:44 debian kernel: [    0.036642] BRK [0x64c06000, 0x64c06fff] PGTABLE
+Nov  2 02:18:44 debian kernel: [    0.036768] ACPI: Local APIC address 0xfee00000
+Nov  2 02:18:44 debian kernel: [    0.037829] On node 0 totalpages: 524153
+Nov  2 02:18:44 debian kernel: [    0.037830]   DMA zone: 64 pages used for memmap
+Nov  2 02:18:44 debian kernel: [    0.037830]   DMA zone: 21 pages reserved
+Nov  2 02:18:44 debian kernel: [    0.037831]   DMA zone: 3998 pages, LIFO batch:0
+Nov  2 02:18:44 debian kernel: [    0.037936]   DMA32 zone: 8128 pages used for memmap
+Nov  2 02:18:44 debian kernel: [    0.037937]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  2 02:18:44 debian kernel: [    0.051748] ACPI: Local APIC address 0xfee00000
+Nov  2 02:18:44 debian kernel: [    0.051807] ACPI: IRQ0 used by override.
+Nov  2 02:18:44 debian kernel: [    0.051808] ACPI: IRQ5 used by override.
+Nov  2 02:18:44 debian kernel: [    0.051809] ACPI: IRQ9 used by override.
+Nov  2 02:18:44 debian kernel: [    0.051809] ACPI: IRQ10 used by override.
+Nov  2 02:18:44 debian kernel: [    0.051810] ACPI: IRQ11 used by override.
+Nov  2 02:18:44 debian kernel: [    0.166286] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  2 02:18:44 debian kernel: [    0.166287] pcpu-alloc: [0] 0 1 
+Nov  2 02:18:44 debian kernel: [    0.202151] Calgary: detecting Calgary via BIOS EBDA area
+Nov  2 02:18:44 debian kernel: [    0.202153] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  2 02:18:44 debian kernel: [    0.241285] hpet clockevent registered
+Nov  2 02:18:44 debian kernel: [    0.367894] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  2 02:18:44 debian kernel: [    0.368196] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  2 02:18:44 debian kernel: [    0.368577] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  2 02:18:44 debian kernel: [    0.370881] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  2 02:18:44 debian kernel: [    0.372136] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  2 02:18:44 debian kernel: [    0.374370] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  2 02:18:44 debian kernel: [    0.375715] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  2 02:18:44 debian kernel: [    0.376207] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  2 02:18:44 debian kernel: [    0.377659] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  2 02:18:44 debian kernel: [    0.379638] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  2 02:18:44 debian kernel: [    0.385360] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  2 02:18:44 debian kernel: [    0.385612] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  2 02:18:44 debian kernel: [    0.386991] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  2 02:18:44 debian kernel: [    0.388292] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  2 02:18:44 debian kernel: [    0.392391] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  2 02:18:44 debian kernel: [    0.395470] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  2 02:18:44 debian kernel: [    0.396309] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  2 02:18:44 debian kernel: [    0.397080] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  2 02:18:44 debian kernel: [    0.401059] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  2 02:18:44 debian kernel: [    0.401310] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  2 02:18:44 debian kernel: [    0.402990] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  2 02:18:44 debian kernel: [    0.404228] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  2 02:18:44 debian kernel: [    0.405613] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  2 02:18:44 debian kernel: [    0.409302] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  2 02:18:44 debian kernel: [    0.409312] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  2 02:18:44 debian kernel: [    0.409331] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  2 02:18:44 debian kernel: [    0.411537] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  2 02:18:44 debian kernel: [    0.411548] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  2 02:18:44 debian kernel: [    0.411567] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  2 02:18:44 debian kernel: [    0.413726] PCI: pci_cache_line_size set to 64 bytes
+Nov  2 02:18:44 debian kernel: [    0.413726] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  2 02:18:44 debian kernel: [    0.413726] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  2 02:18:44 debian kernel: [    0.432068] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  2 02:18:44 debian kernel: [    0.432103] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  2 02:18:44 debian kernel: [    0.432128] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  2 02:18:44 debian kernel: [    0.432137] pnp 00:03: [dma 2]
+Nov  2 02:18:44 debian kernel: [    0.432150] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  2 02:18:44 debian kernel: [    0.447617] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  2 02:18:44 debian kernel: [    0.447619] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  2 02:18:44 debian kernel: [    0.447621] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  2 02:18:44 debian kernel: [    0.447622] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  2 02:18:44 debian kernel: [    0.447623] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  2 02:18:44 debian kernel: [    0.447625] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  2 02:18:44 debian kernel: [    0.447626] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  2 02:18:44 debian kernel: [    0.447627] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  2 02:18:44 debian kernel: [    0.447628] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  2 02:18:44 debian kernel: [    0.447629] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  2 02:18:44 debian kernel: [    0.447630] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  2 02:18:44 debian kernel: [    0.487898] PCI: CLS 0 bytes, default 64
+Nov  2 02:18:44 debian kernel: [    1.376263] libata version 3.00 loaded.
+Nov  2 02:18:44 debian kernel: [    1.377792] ata_piix 0000:00:01.1: version 2.13
+Nov  2 02:18:44 debian kernel: [    1.550860] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  2 02:18:44 debian kernel: [    1.550878] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  2 02:18:44 debian kernel: [    1.552322] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  2 02:18:44 debian kernel: [    1.552367] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  2 02:18:44 debian kernel: [    3.226701] PM: Image not found (code -22)
+Nov  2 08:28:36 debian kernel: [    0.002332] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  2 08:28:36 debian kernel: [    0.002334] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  2 08:28:36 debian kernel: [    0.035220] MTRR default type: write-back
+Nov  2 08:28:36 debian kernel: [    0.035221] MTRR fixed ranges enabled:
+Nov  2 08:28:36 debian kernel: [    0.035222]   00000-9FFFF write-back
+Nov  2 08:28:36 debian kernel: [    0.035223]   A0000-BFFFF uncachable
+Nov  2 08:28:36 debian kernel: [    0.035224]   C0000-FFFFF write-protect
+Nov  2 08:28:36 debian kernel: [    0.035225] MTRR variable ranges enabled:
+Nov  2 08:28:36 debian kernel: [    0.035226]   0 base 0080000000 mask FF80000000 uncachable
+Nov  2 08:28:36 debian kernel: [    0.035227]   1 disabled
+Nov  2 08:28:36 debian kernel: [    0.035228]   2 disabled
+Nov  2 08:28:36 debian kernel: [    0.035228]   3 disabled
+Nov  2 08:28:36 debian kernel: [    0.035229]   4 disabled
+Nov  2 08:28:36 debian kernel: [    0.035229]   5 disabled
+Nov  2 08:28:36 debian kernel: [    0.035230]   6 disabled
+Nov  2 08:28:36 debian kernel: [    0.035230]   7 disabled
+Nov  2 08:28:36 debian kernel: [    0.037750] BRK [0x60a01000, 0x60a01fff] PGTABLE
+Nov  2 08:28:36 debian kernel: [    0.037752] BRK [0x60a02000, 0x60a02fff] PGTABLE
+Nov  2 08:28:36 debian kernel: [    0.037753] BRK [0x60a03000, 0x60a03fff] PGTABLE
+Nov  2 08:28:36 debian kernel: [    0.037781] BRK [0x60a04000, 0x60a04fff] PGTABLE
+Nov  2 08:28:36 debian kernel: [    0.037784] BRK [0x60a05000, 0x60a05fff] PGTABLE
+Nov  2 08:28:36 debian kernel: [    0.037898] BRK [0x60a06000, 0x60a06fff] PGTABLE
+Nov  2 08:28:36 debian kernel: [    0.038042] ACPI: Local APIC address 0xfee00000
+Nov  2 08:28:36 debian kernel: [    0.039167] On node 0 totalpages: 524153
+Nov  2 08:28:36 debian kernel: [    0.039168]   DMA zone: 64 pages used for memmap
+Nov  2 08:28:36 debian kernel: [    0.039168]   DMA zone: 21 pages reserved
+Nov  2 08:28:36 debian kernel: [    0.039169]   DMA zone: 3998 pages, LIFO batch:0
+Nov  2 08:28:36 debian kernel: [    0.039293]   DMA32 zone: 8128 pages used for memmap
+Nov  2 08:28:36 debian kernel: [    0.039294]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  2 08:28:36 debian kernel: [    0.054722] ACPI: Local APIC address 0xfee00000
+Nov  2 08:28:36 debian kernel: [    0.054797] ACPI: IRQ0 used by override.
+Nov  2 08:28:36 debian kernel: [    0.054798] ACPI: IRQ5 used by override.
+Nov  2 08:28:36 debian kernel: [    0.054798] ACPI: IRQ9 used by override.
+Nov  2 08:28:36 debian kernel: [    0.054799] ACPI: IRQ10 used by override.
+Nov  2 08:28:36 debian kernel: [    0.054799] ACPI: IRQ11 used by override.
+Nov  2 08:28:36 debian kernel: [    0.171633] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  2 08:28:36 debian kernel: [    0.171634] pcpu-alloc: [0] 0 1 
+Nov  2 08:28:36 debian kernel: [    0.207897] Calgary: detecting Calgary via BIOS EBDA area
+Nov  2 08:28:36 debian kernel: [    0.207898] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  2 08:28:36 debian kernel: [    0.246030] hpet clockevent registered
+Nov  2 08:28:36 debian kernel: [    0.373116] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  2 08:28:36 debian kernel: [    0.373446] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  2 08:28:36 debian kernel: [    0.373849] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  2 08:28:36 debian kernel: [    0.376100] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  2 08:28:36 debian kernel: [    0.377293] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  2 08:28:36 debian kernel: [    0.379865] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  2 08:28:36 debian kernel: [    0.381135] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  2 08:28:36 debian kernel: [    0.381622] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  2 08:28:36 debian kernel: [    0.383269] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  2 08:28:36 debian kernel: [    0.385597] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  2 08:28:36 debian kernel: [    0.392595] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  2 08:28:36 debian kernel: [    0.392891] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  2 08:28:36 debian kernel: [    0.394340] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  2 08:28:36 debian kernel: [    0.395614] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  2 08:28:36 debian kernel: [    0.400321] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  2 08:28:36 debian kernel: [    0.405525] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  2 08:28:36 debian kernel: [    0.407612] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  2 08:28:36 debian kernel: [    0.408446] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  2 08:28:36 debian kernel: [    0.412479] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  2 08:28:36 debian kernel: [    0.412749] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  2 08:28:36 debian kernel: [    0.414240] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  2 08:28:36 debian kernel: [    0.416489] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  2 08:28:36 debian kernel: [    0.417996] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  2 08:28:36 debian kernel: [    0.421646] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  2 08:28:36 debian kernel: [    0.421656] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  2 08:28:36 debian kernel: [    0.421675] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  2 08:28:36 debian kernel: [    0.428524] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  2 08:28:36 debian kernel: [    0.428535] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  2 08:28:36 debian kernel: [    0.428554] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  2 08:28:36 debian kernel: [    0.431701] PCI: pci_cache_line_size set to 64 bytes
+Nov  2 08:28:36 debian kernel: [    0.431741] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  2 08:28:36 debian kernel: [    0.431742] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  2 08:28:36 debian kernel: [    0.451880] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  2 08:28:36 debian kernel: [    0.451919] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  2 08:28:36 debian kernel: [    0.451944] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  2 08:28:36 debian kernel: [    0.451954] pnp 00:03: [dma 2]
+Nov  2 08:28:36 debian kernel: [    0.451968] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  2 08:28:36 debian kernel: [    0.466879] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  2 08:28:36 debian kernel: [    0.466881] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  2 08:28:36 debian kernel: [    0.466882] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  2 08:28:36 debian kernel: [    0.466884] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  2 08:28:36 debian kernel: [    0.466885] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  2 08:28:36 debian kernel: [    0.466887] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  2 08:28:36 debian kernel: [    0.466888] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  2 08:28:36 debian kernel: [    0.466889] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  2 08:28:36 debian kernel: [    0.466890] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  2 08:28:36 debian kernel: [    0.466891] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  2 08:28:36 debian kernel: [    0.466892] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  2 08:28:36 debian kernel: [    0.510457] PCI: CLS 0 bytes, default 64
+Nov  2 08:28:36 debian kernel: [    1.382846] libata version 3.00 loaded.
+Nov  2 08:28:36 debian kernel: [    1.384448] ata_piix 0000:00:01.1: version 2.13
+Nov  2 08:28:36 debian kernel: [    1.549964] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  2 08:28:36 debian kernel: [    1.550172] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  2 08:28:36 debian kernel: [    1.550637] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  2 08:28:36 debian kernel: [    1.550685] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  2 08:28:36 debian kernel: [    3.373538] PM: Image not found (code -22)
+Nov  5 20:25:08 debian kernel: [    0.002103] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  5 20:25:08 debian kernel: [    0.002105] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  5 20:25:08 debian kernel: [    0.033767] MTRR default type: write-back
+Nov  5 20:25:08 debian kernel: [    0.033768] MTRR fixed ranges enabled:
+Nov  5 20:25:08 debian kernel: [    0.033770]   00000-9FFFF write-back
+Nov  5 20:25:08 debian kernel: [    0.033770]   A0000-BFFFF uncachable
+Nov  5 20:25:08 debian kernel: [    0.033771]   C0000-FFFFF write-protect
+Nov  5 20:25:08 debian kernel: [    0.033772] MTRR variable ranges enabled:
+Nov  5 20:25:08 debian kernel: [    0.033774]   0 base 0080000000 mask FF80000000 uncachable
+Nov  5 20:25:08 debian kernel: [    0.033774]   1 disabled
+Nov  5 20:25:08 debian kernel: [    0.033775]   2 disabled
+Nov  5 20:25:08 debian kernel: [    0.033775]   3 disabled
+Nov  5 20:25:08 debian kernel: [    0.033776]   4 disabled
+Nov  5 20:25:08 debian kernel: [    0.033776]   5 disabled
+Nov  5 20:25:08 debian kernel: [    0.033777]   6 disabled
+Nov  5 20:25:08 debian kernel: [    0.033777]   7 disabled
+Nov  5 20:25:08 debian kernel: [    0.036108] BRK [0x54801000, 0x54801fff] PGTABLE
+Nov  5 20:25:08 debian kernel: [    0.036111] BRK [0x54802000, 0x54802fff] PGTABLE
+Nov  5 20:25:08 debian kernel: [    0.036112] BRK [0x54803000, 0x54803fff] PGTABLE
+Nov  5 20:25:08 debian kernel: [    0.036141] BRK [0x54804000, 0x54804fff] PGTABLE
+Nov  5 20:25:08 debian kernel: [    0.036144] BRK [0x54805000, 0x54805fff] PGTABLE
+Nov  5 20:25:08 debian kernel: [    0.036252] BRK [0x54806000, 0x54806fff] PGTABLE
+Nov  5 20:25:08 debian kernel: [    0.036379] ACPI: Local APIC address 0xfee00000
+Nov  5 20:25:08 debian kernel: [    0.036657] On node 0 totalpages: 524153
+Nov  5 20:25:08 debian kernel: [    0.036658]   DMA zone: 64 pages used for memmap
+Nov  5 20:25:08 debian kernel: [    0.036659]   DMA zone: 21 pages reserved
+Nov  5 20:25:08 debian kernel: [    0.036660]   DMA zone: 3998 pages, LIFO batch:0
+Nov  5 20:25:08 debian kernel: [    0.036763]   DMA32 zone: 8128 pages used for memmap
+Nov  5 20:25:08 debian kernel: [    0.036764]   DMA32 zone: 520155 pages, LIFO batch:63
+Nov  5 20:25:08 debian kernel: [    0.050358] ACPI: Local APIC address 0xfee00000
+Nov  5 20:25:08 debian kernel: [    0.050410] ACPI: IRQ0 used by override.
+Nov  5 20:25:08 debian kernel: [    0.050411] ACPI: IRQ5 used by override.
+Nov  5 20:25:08 debian kernel: [    0.050412] ACPI: IRQ9 used by override.
+Nov  5 20:25:08 debian kernel: [    0.050412] ACPI: IRQ10 used by override.
+Nov  5 20:25:08 debian kernel: [    0.050413] ACPI: IRQ11 used by override.
+Nov  5 20:25:08 debian kernel: [    0.161796] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  5 20:25:08 debian kernel: [    0.161796] pcpu-alloc: [0] 0 1 
+Nov  5 20:25:08 debian kernel: [    0.196095] Calgary: detecting Calgary via BIOS EBDA area
+Nov  5 20:25:08 debian kernel: [    0.196096] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  5 20:25:08 debian kernel: [    0.232072] hpet clockevent registered
+Nov  5 20:25:08 debian kernel: [    0.357100] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  5 20:25:08 debian kernel: [    0.357393] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  5 20:25:08 debian kernel: [    0.357791] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Nov  5 20:25:08 debian kernel: [    0.359977] pci 0000:00:01.1: reg 0x20: [io  0xe160-0xe16f]
+Nov  5 20:25:08 debian kernel: [    0.361014] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Nov  5 20:25:08 debian kernel: [    0.363483] pci 0000:00:01.2: reg 0x20: [io  0xe140-0xe15f]
+Nov  5 20:25:08 debian kernel: [    0.364814] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Nov  5 20:25:08 debian kernel: [    0.365253] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Nov  5 20:25:08 debian kernel: [    0.366319] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Nov  5 20:25:08 debian kernel: [    0.370162] pci 0000:00:02.0: reg 0x18: [mem 0xfea50000-0xfea50fff]
+Nov  5 20:25:08 debian kernel: [    0.374147] pci 0000:00:02.0: reg 0x30: [mem 0xfea40000-0xfea4ffff pref]
+Nov  5 20:25:08 debian kernel: [    0.374386] pci 0000:00:05.0: [1af4:1004] type 00 class 0x010000
+Nov  5 20:25:08 debian kernel: [    0.375807] pci 0000:00:05.0: reg 0x10: [io  0xe100-0xe13f]
+Nov  5 20:25:08 debian kernel: [    0.377123] pci 0000:00:05.0: reg 0x14: [mem 0xfea51000-0xfea51fff]
+Nov  5 20:25:08 debian kernel: [    0.382290] pci 0000:00:05.0: reg 0x20: [mem 0xfe400000-0xfe403fff 64bit pref]
+Nov  5 20:25:08 debian kernel: [    0.384003] pci 0000:00:12.0: [10ec:8139] type 00 class 0x020000
+Nov  5 20:25:08 debian kernel: [    0.384835] pci 0000:00:12.0: reg 0x10: [io  0xe000-0xe0ff]
+Nov  5 20:25:08 debian kernel: [    0.385657] pci 0000:00:12.0: reg 0x14: [mem 0xfea52000-0xfea520ff]
+Nov  5 20:25:08 debian kernel: [    0.389475] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Nov  5 20:25:08 debian kernel: [    0.389869] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Nov  5 20:25:08 debian kernel: [    0.392637] pci 0000:00:1e.0: reg 0x10: [mem 0xfea53000-0xfea530ff 64bit]
+Nov  5 20:25:08 debian kernel: [    0.393986] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Nov  5 20:25:08 debian kernel: [    0.395335] pci 0000:00:1f.0: reg 0x10: [mem 0xfea54000-0xfea540ff 64bit]
+Nov  5 20:25:08 debian kernel: [    0.398149] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Nov  5 20:25:08 debian kernel: [    0.398159] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Nov  5 20:25:08 debian kernel: [    0.398177] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  5 20:25:08 debian kernel: [    0.400007] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Nov  5 20:25:08 debian kernel: [    0.400017] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Nov  5 20:25:08 debian kernel: [    0.400035] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  5 20:25:08 debian kernel: [    0.402238] PCI: pci_cache_line_size set to 64 bytes
+Nov  5 20:25:08 debian kernel: [    0.402238] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  5 20:25:08 debian kernel: [    0.402238] e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Nov  5 20:25:08 debian kernel: [    0.417581] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  5 20:25:08 debian kernel: [    0.417615] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  5 20:25:08 debian kernel: [    0.417639] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Nov  5 20:25:08 debian kernel: [    0.417648] pnp 00:03: [dma 2]
+Nov  5 20:25:08 debian kernel: [    0.417678] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Nov  5 20:25:08 debian kernel: [    0.431141] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  5 20:25:08 debian kernel: [    0.431143] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  5 20:25:08 debian kernel: [    0.431144] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  5 20:25:08 debian kernel: [    0.431146] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Nov  5 20:25:08 debian kernel: [    0.431147] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Nov  5 20:25:08 debian kernel: [    0.431149] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Nov  5 20:25:08 debian kernel: [    0.431150] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Nov  5 20:25:08 debian kernel: [    0.431151] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Nov  5 20:25:08 debian kernel: [    0.431152] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Nov  5 20:25:08 debian kernel: [    0.431153] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Nov  5 20:25:08 debian kernel: [    0.431154] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Nov  5 20:25:08 debian kernel: [    0.470313] PCI: CLS 0 bytes, default 64
+Nov  5 20:25:08 debian kernel: [    1.339217] libata version 3.00 loaded.
+Nov  5 20:25:08 debian kernel: [    1.340776] ata_piix 0000:00:01.1: version 2.13
+Nov  5 20:25:08 debian kernel: [    1.515906] sd 2:0:0:3: [sdb] Mode Sense: 63 00 00 08
+Nov  5 20:25:08 debian kernel: [    1.515918] sd 2:0:0:0: [sda] Mode Sense: 63 00 00 08
+Nov  5 20:25:08 debian kernel: [    1.517164] sd 2:0:0:2: [sdc] Mode Sense: 63 00 00 08
+Nov  5 20:25:08 debian kernel: [    1.517245] sd 2:0:0:1: [sdd] Mode Sense: 63 00 00 08
+Nov  5 20:25:08 debian kernel: [    2.916864] PM: Image not found (code -22)

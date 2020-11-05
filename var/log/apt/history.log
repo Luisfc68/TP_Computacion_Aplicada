@@ -1,0 +1,5 @@
+
+Start-Date: 2020-11-05  00:27:45
+Commandline: apt-get remove nano
+Remove: nano:amd64 (3.2-3)
+End-Date: 2020-11-05  00:27:53

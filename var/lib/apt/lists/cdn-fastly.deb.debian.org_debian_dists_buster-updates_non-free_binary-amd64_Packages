@@ -1,0 +1,32 @@
+Package: libclamunrar
+Version: 0.102.3-0+deb10u1
+Installed-Size: 20
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: libclamunrar9
+Description: anti-virus utility for Unix - unrar support
+Homepage: https://www.clamav.net/
+Description-md5: 838276738daaffecf22ce5427760f59c
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/libc/libclamunrar/libclamunrar_0.102.3-0+deb10u1_all.deb
+Size: 7068
+SHA256: 41bf0748ac055f6cf2176c4bbac00d186dd810389af8990241f46ffb447da25a
+
+Package: libclamunrar9
+Source: libclamunrar
+Version: 0.102.3-0+deb10u1
+Installed-Size: 291
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libclamav9, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Description: anti-virus utility for Unix - unrar support
+Homepage: https://www.clamav.net/
+Description-md5: 81aaa76cb9df5259f364d29eeca2acc6
+Tag: role::shared-lib
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/libc/libclamunrar/libclamunrar9_0.102.3-0+deb10u1_amd64.deb
+Size: 121784
+SHA256: 40f2b878933a345f92cbaf5b786ef0c24c5474603679e16b66067f350b7082f9
+

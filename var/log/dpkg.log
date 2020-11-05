@@ -1,0 +1,11 @@
+2020-11-05 00:27:45 startup packages remove
+2020-11-05 00:27:45 status installed nano:amd64 3.2-3
+2020-11-05 00:27:50 remove nano:amd64 3.2-3 <ninguna>
+2020-11-05 00:27:50 status half-configured nano:amd64 3.2-3
+2020-11-05 00:27:50 status half-installed nano:amd64 3.2-3
+2020-11-05 00:27:50 status triggers-pending man-db:amd64 2.8.5-2
+2020-11-05 00:27:51 status config-files nano:amd64 3.2-3
+2020-11-05 00:27:51 startup packages configure
+2020-11-05 00:27:51 trigproc man-db:amd64 2.8.5-2 <ninguna>
+2020-11-05 00:27:51 status half-configured man-db:amd64 2.8.5-2
+2020-11-05 00:27:53 status installed man-db:amd64 2.8.5-2

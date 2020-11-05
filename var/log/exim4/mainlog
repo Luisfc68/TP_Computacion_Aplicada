@@ -1,0 +1,20 @@
+2020-11-05 00:00:05 1kaVVM-0006ni-Qd <= root@debian.up U=root P=local S=8994
+2020-11-05 00:00:05 1kaVVM-0006ni-Qd => /var/mail/mail (root@debian.up) <root@debian.up> R=mail4root T=address_file
+2020-11-05 00:00:05 1kaVVM-0006ni-Qd Completed
+2020-11-05 00:00:05 1kaVVN-0006qD-Ef <= root@debian.up U=root P=local S=1494
+2020-11-05 00:00:06 1kaVVN-0006qD-Ef => /var/mail/mail (root@debian.up) <root@debian.up> R=mail4root T=address_file
+2020-11-05 00:00:06 1kaVVN-0006qD-Ef Completed
+2020-11-05 00:00:25 1kaVVg-0008LE-Uc <= root@debian.up U=root P=local S=127443
+2020-11-05 00:00:25 1kaVVg-0008LE-Uc => /var/mail/mail (root@debian.up) <root@debian.up> R=mail4root T=address_file
+2020-11-05 00:00:25 1kaVVg-0008LE-Uc Completed
+2020-11-05 00:00:25 1kaVVh-0008LH-2U <= root@debian.up U=root P=local S=780
+2020-11-05 00:00:25 1kaVVh-0008LH-2U => /var/mail/mail (root@debian.up) <root@debian.up> R=mail4root T=address_file
+2020-11-05 00:00:25 1kaVVh-0008LH-2U Completed
+2020-11-05 00:28:55 Start queue run: pid=1046
+2020-11-05 00:28:55 End queue run: pid=1046
+2020-11-05 20:25:20 1kaod5-00008P-3e <= root@debian.up U=root P=local S=689
+2020-11-05 20:25:21 1kaod5-00008P-3e => /var/mail/mail (root@debian.up) <root@debian.up> R=mail4root T=address_file
+2020-11-05 20:25:21 1kaod5-00008P-3e Completed
+2020-11-05 20:25:25 exim 4.92 daemon started: pid=936, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25
+2020-11-05 20:25:25 Start queue run: pid=938
+2020-11-05 20:25:25 End queue run: pid=938

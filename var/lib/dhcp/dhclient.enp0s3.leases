@@ -1,0 +1,29 @@
+default-duid "\000\001\000\001&\024\244&\010\000'\354\230\334";
+lease {
+  interface "enp0s3";
+  fixed-address 10.0.2.15;
+  filename "TP VM.pxe";
+  option subnet-mask 255.255.255.0;
+  option routers 10.0.2.2;
+  option dhcp-lease-time 86400;
+  option dhcp-message-type 5;
+  option domain-name-servers 200.42.4.207,200.49.130.44;
+  option dhcp-server-identifier 10.0.2.2;
+  renew 5 2020/08/28 08:30:00;
+  rebind 5 2020/08/28 19:03:46;
+  expire 5 2020/08/28 22:03:46;
+}
+lease {
+  interface "enp0s3";
+  fixed-address 10.0.2.15;
+  filename "TP VM.pxe";
+  option subnet-mask 255.255.255.0;
+  option routers 10.0.2.2;
+  option dhcp-lease-time 86400;
+  option dhcp-message-type 5;
+  option domain-name-servers 200.42.4.207,200.49.130.44;
+  option dhcp-server-identifier 10.0.2.2;
+  renew 4 2020/08/27 22:09:19;
+  rebind 4 2020/08/27 22:09:19;
+  expire 4 2020/08/27 22:09:19;
+}
