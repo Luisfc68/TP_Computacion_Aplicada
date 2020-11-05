@@ -1,7 +1,0 @@
-#!/bin/bash
-
-#Este seria el main de la funcion que 
-
-source funciones.sh
-
-esLaborable $*
