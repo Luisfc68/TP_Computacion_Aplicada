@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Si el script tira errores por duplicado de que no existe el proceso, este error se puede ignorar.
+#Este error se ocaciona cuando un proceso se finaliza en el medio de la ejecucion del script.
+
 DIR=$1
 
 if [ "$1" == "-h" ]; then
@@ -13,6 +16,10 @@ elif [ $# -ne 2 ]; then
 else
 	# si los parametros cumplen los requisitos me aseguro que el directorio origen termine en /
 	# ya que si no se vuelve loco
+	
+	MP1=`df $DIR | tail -1 | awk '{print $6}'`
+	MP2=`df $DIR | tail -1 | awk '{print $6}'`
+	echo $MP1 $MP2
 	if [ `echo $DIR | tail -c -2` != "/" ]; then  
 		
 		DIR=$DIR"/"
@@ -20,15 +27,16 @@ else
 	fi
 
 fi
-
-if [ -d $DIR ] && [ -d $2 ]; then 
+#verifica directorios y mp
+if [ -d $DIR ] && [ -d $2 ] && [ `mountpoint -q $MP1 && echo ok` != "" ] && [ `mountpoint -q $MP2 && echo ok` != "" ] ; then 
 	
-	LOG="/dev/shm/log$$.temp"
+	LOG="/tmp/log$$.temp"
 	NOMBRE=`echo $DIR | tr -cd [:alnum:]`"_bkp_"`date +%Y%m%d`".tar.gz"
 
-	ENCONTRADO="/dev/shm/"`date +%N | md5sum | head -c -4`"1.temp"
-	PID_ACTUAL="/dev/shm/"`date +%N | md5sum | head -c -4`"2.temp"
-	PIDS_TOTALES="/dev/shm/"`date +%N | md5sum | head -c -4`"3.temp"
+	#crea archivos temporales de diferentes nombres por si se ejecuta varias veces el script
+	ENCONTRADO="/tmp/"`date +%N | md5sum | head -c -4`"1.temp"
+	PID_ACTUAL="/tmp/"`date +%N | md5sum | head -c -4`"2.temp"
+	PIDS_TOTALES="/tmp/"`date +%N | md5sum | head -c -4`"3.temp"
 	
 	touch {$ENCONTRADO,$PID_ACTUAL,$PIDS_TOTALES}
 	
@@ -37,10 +45,14 @@ if [ -d $DIR ] && [ -d $2 ]; then
 	while read -r ARCH ; do
 		
 	# pueden haber varias entradas
+
  	# encontrados -> archivos todos los archivos encontrados en el directorio a backupear
 	# pid_actual -> pids de los procesos que hacen uso del archivo que se esta analizando ahora
 	# pids_totales -> pids de todos los procesos detenidos durante el backup
-		
+	
+	#revisa los procesos en ejecucion que interactuen con los archivos a backupear y les pone pasua
+	#luego reanuda
+	
 		echo `date +%H:%M:%S`" - Backup $NOMBRE - $ARCH"  >> $LOG
 		fuser $ARCH 2> /dev/null | tr "[:space:]" "\n" | egrep "^[0-9]" > $PID_ACTUAL 
 		while read -r PID ; do  # para no pausar init y que se muera todo
@@ -67,5 +79,5 @@ if [ -d $DIR ] && [ -d $2 ]; then
 	rm $LOG
 	
 else
-	echo "Uno de los parametros proporcionados no es un directorio" && exit 1
+	echo "Uno de los parametros proporcionados no es un directorio o no esta montado" && exit 1
 fi

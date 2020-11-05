@@ -1,9 +1,14 @@
 #!/bin/bash
 
 esLaborable(){
-	
+
 	if [ "$1" == "-h" ]; then
 		echo `basename $0` "<fecha a validar> (se recomienda formato yyyymmdd)" && exit 0
+	
+	elif [ $# -ne 1 ]; then 
+	
+		echo "Cantidad de argumentos equivocada" && exit 2
+
 	fi
 	#------reviso si la fecha ingresada es valida--------------
 	date -d "$1" +%Y%m%d > /dev/null 2>&1
@@ -29,7 +34,7 @@ esLaborable(){
 
 	#-----si no encontro nada reviso los feriados movibles y la semana santa----
 	else
-		egrep ^t fechas.txt > /dev/shm/.fechas_temp.txt
+		egrep ^t fechas.txt > /tmp/.fechas_temp.txt
 		while read -r LINEA ; do
 			
 	#---calculo segun la fehca de ese feriado que dia cae en el año de la fecha introducida----
@@ -51,15 +56,17 @@ esLaborable(){
 	#-----si la fecha calculada es igual a la introducida entonces es un feriado movible y me voy del script-----
 			if [ "$FECHA" == "$FECHA_TRASLADADA" ]; then
 				echo $MOTIVO
-				rm /dev/shm/.fechas_temp.txt
+				rm /tmp/.fechas_temp.txt
 				exit 0
 			fi
-		done < /dev/shm/.fechas_temp.txt
+		done < /tmp/.fechas_temp.txt
 
 
-	#hago esta validacion aparte porque el calculo de semana santa y carnaval depende de los ciclos lunares de cada año, por lo que me anote los inicios de SS hasta el 2030 y con esos calculo las demas fechas
+	# hago esta validacion aparte porque el calculo de semana santa y carnaval depende
+	# de los ciclos lunares de cada año, por lo que me anote los inicios de SS hasta
+	# el 2030 y con esos calculo las demas fechas
 
-		egrep ^ss fechas.txt | tr -d "s" > /dev/shm/.fechas_temp.txt
+		egrep ^ss fechas.txt | tr -d "s" > /tmp/.fechas_temp.txt
 		ENCONTRADO=false
 		while read -r INICIO_SS ; do
 				
@@ -82,13 +89,13 @@ esLaborable(){
 			fi
 
 			if $ENCONTRADO ; then 
-				rm /dev/shm/.fechas_temp.txt
+				rm /tmp/.fechas_temp.txt
 				exit 0
 			fi
  
-		done < /dev/shm/.fechas_temp.txt
+		done < /tmp/.fechas_temp.txt
 
-	rm /dev/shm/.fechas_temp.txt
+	rm /tmp/.fechas_temp.txt
 
 	fi
 #----si en ninguna de las revisiones anteriores se salio del script entonces es un dia normal-----

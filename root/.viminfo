@@ -20,24 +20,24 @@
 $
 
 # Historia de LÃ­nea de Ã³rdenes (de lo mÃ¡s nuevo a lo mÃ¡s antiguo):
-:wq
-|2,0,1604283412,,"wq"
 :q
-|2,0,1604281771,,"q"
+|2,0,1604546744,,"q"
+:wq
+|2,0,1604546718,,"wq"
 :q!
-|2,0,1604278728,,"q!"
+|2,0,1604544506,,"q!"
 :WQ
-|2,0,1604278462,,"WQ"
+|2,0,1604543678,,"WQ"
+:Wq
+|2,0,1604370065,,"Wq"
+:Q
+|2,0,1604369905,,"Q"
+:w
+|2,0,1604366646,,"w"
 :EW
 |2,0,1604275084,,"EW"
 ::w
 |2,0,1604203457,,":w"
-:w
-|2,0,1604195256,,"w"
-:Wq
-|2,0,1604194156,,"Wq"
-:Q
-|2,0,1604193965,,"Q"
 :qw
 |2,0,1604019551,,"qw"
 :wQ
@@ -87,35 +87,35 @@ $
 
 # Registros:
 "0	LINE	0
-	00 23 * * 0 root /opt/tp/scripts/back_full.sh /u01 /u03
-|3,0,0,1,1,0,1604281614,"00 23 * * 0 root /opt/tp/scripts/back_full.sh /u01 /u03"
+		MP1=`df $DIR | tail -1 | awk {print $6}`
+|3,0,0,1,1,0,1604543858,"	MP1=`df $DIR | tail -1 | awk {print $6}`"
 "1	LINE	0
-	@reboot /usr/sbin/iptables-restore /opt/tp/firewall/reglas-firewall.txt && echo el pepe
-|3,0,1,1,1,0,1604281063,"@reboot /usr/sbin/iptables-restore /opt/tp/firewall/reglas-firewall.txt && echo el pepe"
+		MP2=
+|3,0,1,1,1,0,1604543857,"	MP2="
 "2	LINE	0
-	@reboot /usr/sbin/iptables-restore /opt/tp/firewall/reglas-firewall.txt && echo el pepe
-|3,0,2,1,1,0,1604281058,"@reboot /usr/sbin/iptables-restore /opt/tp/firewall/reglas-firewall.txt && echo el pepe"
+	#@reboot /usr/sbin/iptables-restore /opt/tp/firewall/reglas-firewall.txt && echo el pepe
+|3,0,2,1,1,0,1604542806,"#@reboot /usr/sbin/iptables-restore /opt/tp/firewall/reglas-firewall.txt && echo el pepe"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1604280118,""
+	#*/5 * 	* * * 	root 	/opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt
+|3,0,3,1,1,0,1604542802,"#*/5 * 	* * * 	root 	/opt/tp/scripts/monitor.sh mysqld >> /root/quepasa.txt"
 "4	LINE	0
-		NOMBRE=`echo $DIR | tr -cd [:alnum:]`"_bkp_"`date +%Y%m%d`".tar.gz"
-|3,0,4,1,1,0,1604280116,"	NOMBRE=`echo $DIR | tr -cd [:alnum:]`\"_bkp_\"`date +%Y%m%d`\".tar.gz\""
+	#*/5 * 	* * * 	root 	/opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt
+|3,0,4,1,1,0,1604542801,"#*/5 * 	* * * 	root 	/opt/tp/scripts/monitor.sh sshd >> /root/quepasa.txt"
 "5	LINE	0
-		echo `date +%H:%M:%S`" - BACKUP DEL DIRECTORIO $DIR"  > $LOG
-|3,0,5,1,1,0,1604279827,"	echo `date +%H:%M:%S`\" - BACKUP DEL DIRECTORIO $DIR\"  > $LOG"
+	#*/5 * 	* * * 	root 	/opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt
+|3,0,5,1,1,0,1604542801,"#*/5 * 	* * * 	root 	/opt/tp/scripts/monitor.sh apache2 >> /root/quepasa.txt"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1604279057,""
+	#00 0 	* * * 	root 	/opt/tp/scripts/backup_full.sh /etc /u03
+|3,0,6,1,1,0,1604542800,"#00 0 	* * * 	root 	/opt/tp/scripts/backup_full.sh /etc /u03"
 "7	LINE	0
-		AHORA=`date +%H:%M:%S`
-|3,0,7,1,1,0,1604279056,"	AHORA=`date +%H:%M:%S`"
+	#00 0 	* * * 	root 	/opt/tp/scripts/backup_full.sh /var/log /u03
+|3,0,7,1,1,0,1604542800,"#00 0 	* * * 	root 	/opt/tp/scripts/backup_full.sh /var/log /u03"
 "8	LINE	0
-	getNow(){
-|3,0,8,1,1,0,1604279055,"getNow(){"
+	#00 23	* * 0 	root 	/opt/tp/scripts/backup_full.sh /u01 /u03
+|3,0,8,1,1,0,1604542799,"#00 23	* * 0 	root 	/opt/tp/scripts/backup_full.sh /u01 /u03"
 "9	LINE	0
-		return $AHORA
-|3,0,9,1,1,0,1604279053,"	return $AHORA"
+	#00 23	* * 0 	root 	/opt/tp/scripts/backup_full.sh /u02 /u03
+|3,0,9,1,1,0,1604542799,"#00 23	* * 0 	root 	/opt/tp/scripts/backup_full.sh /u02 /u03"
 "a	CHAR	0
 	!€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb
 |3,0,10,0,1,0,1600550878,"!€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb"
@@ -123,365 +123,337 @@ $
 	w
 |3,0,26,0,1,0,1603856182,"w"
 ""-	CHAR	0
-	4
-|3,1,36,0,1,0,1604283404,"4"
+	1
+|3,1,36,0,1,0,1604543863,"1"
 
 # Marcas en el archivo:
-'0  27  3  /etc/crontab
-|4,48,27,3,1604287502,"/etc/crontab"
-'1  29  1  /etc/crontab
-|4,49,29,1,1604283412,"/etc/crontab"
-'2  29  1  /etc/crontab
-|4,50,29,1,1604283412,"/etc/crontab"
-'3  30  1  /etc/crontab
-|4,51,30,1,1604283196,"/etc/crontab"
-'4  30  1  /etc/crontab
-|4,52,30,1,1604283196,"/etc/crontab"
-'5  30  1  /etc/crontab
-|4,53,30,1,1604283196,"/etc/crontab"
-'6  30  1  /etc/crontab
-|4,54,30,1,1604283196,"/etc/crontab"
-'7  30  1  /etc/crontab
-|4,55,30,1,1604283185,"/etc/crontab"
-'8  30  1  /etc/crontab
-|4,56,30,1,1604283185,"/etc/crontab"
-'9  30  1  /etc/crontab
-|4,57,30,1,1604283185,"/etc/crontab"
+'0  1  0  /opt/tp/scripts/monitor.sh
+|4,48,1,0,1604546744,"/opt/tp/scripts/monitor.sh"
+'1  1  0  /opt/tp/scripts/funciones.sh
+|4,49,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+'2  48  0  /opt/tp/scripts/backup_full.sh
+|4,50,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+'3  99  0  /opt/tp/scripts/funciones.sh
+|4,51,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+'4  99  0  /opt/tp/scripts/funciones.sh
+|4,52,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+'5  92  0  /opt/tp/scripts/funciones.sh
+|4,53,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+'6  92  0  /opt/tp/scripts/funciones.sh
+|4,54,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+'7  92  0  /opt/tp/scripts/funciones.sh
+|4,55,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+'8  92  0  /opt/tp/scripts/funciones.sh
+|4,56,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+'9  79  80  /opt/tp/scripts/backup_full.sh
+|4,57,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
 
 # Lista de saltos (el mÃ¡s reciente va primero):
--'  27  3  /etc/crontab
-|4,39,27,3,1604287502,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604287454,"/etc/crontab"
--'  29  1  /etc/crontab
-|4,39,29,1,1604283412,"/etc/crontab"
--'  29  1  /etc/crontab
-|4,39,29,1,1604283412,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604283398,"/etc/crontab"
--'  30  1  /etc/crontab
-|4,39,30,1,1604283196,"/etc/crontab"
--'  30  1  /etc/crontab
-|4,39,30,1,1604283196,"/etc/crontab"
--'  30  1  /etc/crontab
-|4,39,30,1,1604283196,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604283188,"/etc/crontab"
--'  30  1  /etc/crontab
-|4,39,30,1,1604283185,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604283176,"/etc/crontab"
--'  29  1  /etc/crontab
-|4,39,29,1,1604282973,"/etc/crontab"
--'  29  1  /etc/crontab
-|4,39,29,1,1604282973,"/etc/crontab"
--'  29  1  /etc/crontab
-|4,39,29,1,1604282973,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604282962,"/etc/crontab"
--'  30  18  /etc/crontab
-|4,39,30,18,1604282921,"/etc/crontab"
--'  30  18  /etc/crontab
-|4,39,30,18,1604282921,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604282836,"/etc/crontab"
--'  30  1  /etc/crontab
-|4,39,30,1,1604282622,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604282597,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604281771,"/etc/crontab"
--'  29  54  /etc/crontab
-|4,39,29,54,1604281687,"/etc/crontab"
--'  29  54  /etc/crontab
-|4,39,29,54,1604281687,"/etc/crontab"
--'  29  54  /etc/crontab
-|4,39,29,54,1604281687,"/etc/crontab"
--'  29  54  /etc/crontab
-|4,39,29,54,1604281687,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604281679,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  27  1  /etc/crontab
-|4,39,27,1,1604281652,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604281640,"/etc/crontab"
--'  30  49  /etc/crontab
-|4,39,30,49,1604281625,"/etc/crontab"
--'  30  49  /etc/crontab
-|4,39,30,49,1604281625,"/etc/crontab"
--'  30  49  /etc/crontab
-|4,39,30,49,1604281625,"/etc/crontab"
--'  30  49  /etc/crontab
-|4,39,30,49,1604281625,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604281542,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  28  1  /etc/crontab
-|4,39,28,1,1604281525,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604281290,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  19  0  /etc/crontab
-|4,39,19,0,1604281172,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604281163,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604281065,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604281043,"/etc/crontab"
--'  27  0  /etc/crontab
-|4,39,27,0,1604280874,"/etc/crontab"
--'  27  0  /etc/crontab
-|4,39,27,0,1604280874,"/etc/crontab"
--'  27  0  /etc/crontab
-|4,39,27,0,1604280874,"/etc/crontab"
--'  27  0  /etc/crontab
-|4,39,27,0,1604280874,"/etc/crontab"
--'  26  0  /etc/crontab
-|4,39,26,0,1604280874,"/etc/crontab"
--'  1  0  /etc/crontab
-|4,39,1,0,1604280867,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
--'  25  71  /etc/crontab
-|4,39,25,71,1604280699,"/etc/crontab"
+-'  1  0  /opt/tp/scripts/monitor.sh
+|4,39,1,0,1604546744,"/opt/tp/scripts/monitor.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546734,"/opt/tp/scripts/funciones.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  48  0  /opt/tp/scripts/backup_full.sh
+|4,39,48,0,1604546718,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604546476,"/opt/tp/scripts/backup_full.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  99  0  /opt/tp/scripts/funciones.sh
+|4,39,99,0,1604546101,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604546091,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  92  0  /opt/tp/scripts/funciones.sh
+|4,39,92,0,1604546009,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604545983,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604545983,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604545983,"/opt/tp/scripts/funciones.sh"
+-'  1  0  /opt/tp/scripts/funciones.sh
+|4,39,1,0,1604545983,"/opt/tp/scripts/funciones.sh"
+-'  79  80  /opt/tp/scripts/backup_full.sh
+|4,39,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  79  80  /opt/tp/scripts/backup_full.sh
+|4,39,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  79  80  /opt/tp/scripts/backup_full.sh
+|4,39,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  79  80  /opt/tp/scripts/backup_full.sh
+|4,39,79,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  74  80  /opt/tp/scripts/backup_full.sh
+|4,39,74,80,1604544707,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  1  0  /opt/tp/scripts/backup_full.sh
+|4,39,1,0,1604544507,"/opt/tp/scripts/backup_full.sh"
+-'  61  0  /opt/tp/scripts/backup_full.sh
+|4,39,61,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  61  0  /opt/tp/scripts/backup_full.sh
+|4,39,61,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  61  0  /opt/tp/scripts/backup_full.sh
+|4,39,61,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  61  0  /opt/tp/scripts/backup_full.sh
+|4,39,61,0,1604544506,"/opt/tp/scripts/backup_full.sh"
+-'  56  0  /opt/tp/scripts/backup_full.sh
+|4,39,56,0,1604544506,"/opt/tp/scripts/backup_full.sh"
 
 # Historia de las marcas en los archivos (de la mÃ¡s reciente a la mÃ¡s antigua):
 
-> /etc/crontab
-	*	1604287460	0
-	"	27	3
-	^	29	2
-	.	29	1
-	+	24	53
-	+	24	0
-	+	24	59
-	+	24	57
-	+	24	60
-	+	24	63
-	+	24	72
-	+	24	75
-	+	24	0
-	+	24	64
-	+	24	66
-	+	24	0
-	+	9	10
-	+	24	0
-	+	10	5
-	+	7	13
-	+	24	67
+> /opt/tp/scripts/monitor.sh
+	*	1604546744	0
+	"	1	0
+	^	9	61
+	.	9	60
+	+	18	18
+	+	27	58
+	+	3	26
+	+	11	1
+	+	5	6
+	+	6	0
+	+	7	25
+	+	9	48
+	+	27	50
+	+	7	9
+	+	9	60
+
+> /opt/tp/scripts/funciones.sh
+	*	1604546734	0
+	"	1	0
+	^	4	0
+	.	3	14
+	+	13	7
+	+	19	0
+	+	25	7
+	+	13	59
+	+	20	0
+	+	21	6
 	+	25	0
-	+	26	0
-	+	24	49
-	+	25	47
-	+	26	2
-	+	25	2
-	+	24	2
-	+	27	0
-	+	21	0
-	+	19	0
-	+	27	0
-	+	19	0
-	+	27	54
-	+	28	1
-	+	29	54
-	+	30	49
-	+	27	2
-	+	29	38
-	+	30	1
-	+	29	1
-	+	30	2
-	+	28	55
-	+	29	5
-	+	30	5
-	+	29	6
-	+	28	5
-	+	27	5
-	+	26	6
-	+	25	6
-	+	24	13
-	+	25	13
-	+	26	13
-	+	27	12
-	+	28	12
-	+	29	12
-	+	30	13
-	+	24	19
-	+	25	19
-	+	26	19
-	+	27	18
-	+	28	18
-	+	29	18
-	+	30	18
-	+	29	0
-	+	30	1
-	+	29	1
-	+	30	1
-	+	29	1
-	+	30	1
-	+	29	0
-	+	30	1
-	+	29	1
+	+	21	79
+	+	28	6
+	+	21	103
+	+	22	63
+	+	28	51
+	+	35	76
+	+	54	61
+	+	53	0
+	+	51	0
+	+	52	2
+	+	41	0
+	+	56	109
+	+	101	97
+	+	2	0
+	+	3	8
+	+	3	1
+	+	3	25
+	+	3	2
+	+	3	21
+	+	5	21
+	+	6	73
+	+	13	0
+	+	5	26
+	+	5	25
+	+	7	2
+	+	3	0
+	+	6	82
+	+	66	1
+	+	67	1
+	+	65	2
+	+	37	27
+	+	59	10
+	+	62	11
+	+	69	40
+	+	92	10
+	+	96	12
+	+	98	7
+	+	7	1
+	+	9	0
+	+	8	24
+	+	10	51
+	+	5	0
+	+	3	14
 
 > /opt/tp/scripts/backup_full.sh
-	*	1604280431	0
-	"	67	7
-	^	67	8
-	.	67	7
-	+	62	3
-	+	45	76
-	+	48	25
-	+	51	17
-	+	53	16
-	+	60	16
-	+	35	19
-	+	63	27
-	+	45	21
-	+	42	73
-	+	64	30
-	+	29	12
-	+	31	13
-	+	29	20
-	+	30	20
-	+	31	20
-	+	29	20
-	+	31	22
-	+	29	55
-	+	30	22
-	+	30	55
-	+	31	24
-	+	35	21
-	+	45	78
-	+	31	57
-	+	48	29
-	+	51	19
-	+	53	20
-	+	60	20
-	+	62	14
-	+	63	14
-	+	64	16
-	+	28	0
-	+	47	58
-	+	29	21
-	+	30	21
-	+	31	23
-	+	29	53
-	+	30	53
-	+	31	55
-	+	53	18
-	+	49	22
-	+	59	20
-	+	54	0
-	+	55	0
-	+	56	7
-	+	32	1
-	+	33	44
-	+	55	32
+	*	1604546717	0
+	"	48	0
+	^	54	15
+	.	54	14
+	+	64	19
+	+	66	20
+	+	73	20
+	+	75	14
+	+	76	14
+	+	77	16
+	+	37	0
+	+	60	58
+	+	38	21
+	+	39	21
+	+	40	23
+	+	38	53
+	+	39	53
+	+	40	55
+	+	66	18
+	+	62	22
+	+	72	20
+	+	67	0
 	+	68	0
+	+	69	7
+	+	41	1
+	+	42	44
+	+	68	32
+	+	81	0
 	+	5	25
 	+	13	1
 	+	7	76
@@ -497,41 +469,132 @@ $
 	+	11	51
 	+	13	4
 	+	14	1
-	+	16	47
-	+	20	2
-	+	17	4
-	+	17	3
-	+	16	31
-	+	17	4
-	+	16	30
-	+	17	3
-	+	19	0
-	+	18	11
-	+	15	29
-	+	23	0
-	+	24	11
-	+	35	9
-	+	55	17
-	+	56	27
-	+	28	6
-	+	26	18
-	+	28	32
+	+	24	47
+	+	28	2
+	+	25	4
+	+	25	3
+	+	24	31
+	+	25	4
+	+	24	30
+	+	25	3
+	+	27	0
+	+	26	11
+	+	23	29
+	+	31	0
+	+	32	11
+	+	44	9
+	+	68	17
+	+	69	27
+	+	37	6
+	+	34	18
+	+	37	32
 	+	3	9
 	+	3	0
 	+	3	23
 	+	3	13
-	+	28	16
+	+	37	16
 	+	3	0
-	+	28	20
-	+	43	1
-	+	44	56
-	+	28	0
-	+	44	79
-	+	27	0
-	+	55	0
-	+	44	49
-	+	66	33
-	+	67	7
+	+	37	20
+	+	56	1
+	+	57	56
+	+	37	0
+	+	57	79
+	+	35	0
+	+	68	0
+	+	57	49
+	+	79	33
+	+	80	7
+	+	34	9
+	+	38	16
+	+	39	16
+	+	40	18
+	+	22	0
+	+	14	3
+	+	20	1
+	+	14	0
+	+	28	42
+	+	16	1
+	+	19	4
+	+	17	38
+	+	19	0
+	+	18	3
+	+	19	6
+	+	17	41
+	+	18	42
+	+	28	114
+	+	79	80
+	+	30	26
+	+	49	0
+	+	47	31
+	+	35	0
+	+	36	88
+	+	53	96
+	+	54	14
+
+> /etc/crontab
+	*	1604542807	0
+	"	19	0
+	.	19	0
+	+	23	53
+	+	23	0
+	+	23	59
+	+	23	57
+	+	23	60
+	+	23	63
+	+	23	72
+	+	23	75
+	+	23	0
+	+	23	64
+	+	23	66
+	+	23	0
+	+	9	10
+	+	23	0
+	+	10	5
+	+	7	13
+	+	23	67
+	+	23	0
+	+	23	49
+	+	23	47
+	+	23	2
+	+	23	0
+	+	20	0
+	+	19	0
+	+	23	0
+	+	19	0
+	+	23	54
+	+	23	1
+	+	23	54
+	+	23	49
+	+	23	2
+	+	23	38
+	+	23	1
+	+	23	2
+	+	23	55
+	+	23	5
+	+	23	6
+	+	23	5
+	+	23	6
+	+	23	13
+	+	23	12
+	+	23	13
+	+	23	19
+	+	23	18
+	+	23	0
+	+	23	1
+	+	23	0
+	+	23	1
+	+	23	0
+	+	19	0
+
+> /opt/tp/scripts/pruebas.sh
+	*	1604370171	0
+	"	5	13
+	^	5	14
+	.	5	13
+	+	5	11
+	+	5	0
+	+	3	19
+	+	5	13
 
 > /opt/tp/scripts/pruebas/relleno.sh
 	*	1604278864	0
@@ -639,17 +702,6 @@ $
 > /opt/tp/scripts/b
 	*	1603944270	0
 	"	1	0
-
-> /opt/tp/scripts/monitor.sh
-	*	1603937463	0
-	"	18	24
-	^	5	8
-	.	5	6
-	+	14	18
-	+	23	58
-	+	3	26
-	+	7	1
-	+	5	6
 
 > /.git/COMMIT_EDITMSG
 	*	1603936573	0
@@ -843,50 +895,6 @@ $
 	^	2	0
 	.	1	8
 	+	1	8
-
-> /opt/tp/scripts/funciones.sh
-	*	1603857537	0
-	"	1	0
-	^	6	83
-	.	6	82
-	+	8	7
-	+	14	0
-	+	20	7
-	+	8	59
-	+	15	0
-	+	16	6
-	+	20	0
-	+	16	79
-	+	23	6
-	+	16	103
-	+	17	63
-	+	23	51
-	+	30	76
-	+	49	61
-	+	48	0
-	+	46	0
-	+	47	2
-	+	36	0
-	+	51	109
-	+	94	97
-	+	2	0
-	+	3	8
-	+	3	1
-	+	3	25
-	+	3	2
-	+	3	21
-	+	5	21
-	+	6	73
-	+	8	0
-	+	5	26
-	+	5	25
-	+	7	2
-	+	3	0
-	+	6	82
-
-> /opt/tp/scripts/pruebas.sh
-	*	1603857406	0
-	"	1	0
 
 > ~/weeb.sh
 	*	1603856787	0
